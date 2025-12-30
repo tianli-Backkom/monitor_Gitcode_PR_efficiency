@@ -226,8 +226,16 @@ def main():
     # 配置
     owner = "Ascend"
     repo = "triton-ascend"
-    access_token = "ujpJg3DiifrfP8SooysZq6He"
-    output_dir = "D:\\code\\monitor_Gitcode_PR_efficiency"
+    
+    # 优先从环境变量读取访问令牌，如果不存在则使用默认值
+    access_token = os.environ.get("GITCODE_ACCESS_TOKEN", "ujpJg3DiifrfP8SooysZq6He")
+    
+    # 输出目录：优先使用环境变量，否则使用当前目录
+    output_dir = os.environ.get("OUTPUT_DIR", os.getcwd())
+    
+    print(f"监控仓库: {owner}/{repo}")
+    print(f"输出目录: {output_dir}")
+    print(f"访问令牌: {'已设置' if access_token else '未设置'}")
     
     # 确保输出目录存在
     os.makedirs(output_dir, exist_ok=True)
