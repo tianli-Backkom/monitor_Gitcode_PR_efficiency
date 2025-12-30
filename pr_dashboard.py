@@ -244,35 +244,7 @@ def generate_pr_dashboard():
             font-weight: 500;
         }}
         
-        .progress-section {{
-            margin-top: 30px;
-        }}
-        
-        .progress-item {{
-            margin-bottom: 20px;
-        }}
-        
-        .progress-label {{
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 5px;
-            font-size: 0.9rem;
-            color: #666;
-        }}
-        
-        .progress-bar {{
-            height: 8px;
-            background: #f0f0f0;
-            border-radius: 4px;
-            overflow: hidden;
-        }}
-        
-        .progress-fill {{
-            height: 100%;
-            background: linear-gradient(90deg, #667eea, #764ba2);
-            border-radius: 4px;
-            transition: width 0.3s ease;
-        }}
+
         
         .footer {{
             text-align: center;
@@ -328,31 +300,7 @@ def generate_pr_dashboard():
             </div>
         </div>
         
-        <div class="section">
-            <h2 class="section-title">📊 PR效率分析</h2>
-            
-            <div class="progress-section">
-                <div class="progress-item">
-                    <div class="progress-label">
-                        <span>合入效率</span>
-                        <span>{stats['recent_merged_count']}/{stats['recent_submitted_count'] if stats['recent_submitted_count'] > 0 else 1} PR合入</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width: {(stats['recent_merged_count']/stats['recent_submitted_count']*100) if stats['recent_submitted_count'] > 0 else 0}%"></div>
-                    </div>
-                </div>
-                
-                <div class="progress-item">
-                    <div class="progress-label">
-                        <span>平均处理速度</span>
-                        <span>vs 目标: 2天</span>
-                    </div>
-                    <div class="progress-bar">
-                        <div class="progress-fill" style="width: {min(100, (2/stats['avg_duration']*100)) if stats['avg_duration'] > 0 else 0}%"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         
         <div class="section">
             <h2 class="section-title">📈 近两周每日PR提交活跃度</h2>
@@ -389,17 +337,7 @@ def generate_pr_dashboard():
             }});
         }});
         
-        // 进度条动画
         window.addEventListener('load', function() {{
-            document.querySelectorAll('.progress-fill').forEach(fill => {{
-                const width = fill.style.width;
-                fill.style.width = '0';
-                setTimeout(() => {{
-                    fill.style.width = width;
-                }}, 500);
-            }});
-            
-            // 初始化每日提交折线图
             initDailyChart();
         }});
         
