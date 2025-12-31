@@ -4,7 +4,7 @@ import re
 
 try:
     # 读取JSON数据
-    with open('D:\\code\\monitor_Gitcode_PR_efficiency\\triton_ascend_prs_analysis.json', 'r', encoding='utf-8') as f:
+    with open('/home/runner/work/monitor_Gitcode_PR_efficiency/monitor_Gitcode_PR_efficiency/triton_ascend_prs_analysis.json', 'r', encoding='utf-8') as f:
         data = json.load(f)
     
     print("="*60)
@@ -71,7 +71,7 @@ try:
     # 检查HTML看板文件
     print(f"\n🌐 HTML看板验证:")
     try:
-        with open('D:\\code\\monitor_Gitcode_PR_efficiency\\triton_pr_dashboard.html', 'r', encoding='utf-8') as f:
+        with open('/home/runner/work/monitor_Gitcode_PR_efficiency/monitor_Gitcode_PR_efficiency/triton_pr_dashboard.html', 'r', encoding='utf-8') as f:
             html_content = f.read()
         
         # 提取关键数据
