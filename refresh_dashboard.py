@@ -121,7 +121,7 @@ def run_pr_data_collection():
         return False
     
     # 检查是否生成了数据文件
-    data_file = "D:\\code\\monitor_Gitcode_PR_efficiency\\triton_ascend_prs_analysis.json"
+    data_file = "/home/runner/work/monitor_Gitcode_PR_efficiency/monitor_Gitcode_PR_efficiency/triton_ascend_prs_analysis.json"
     if os.path.exists(data_file):
         try:
             with open(data_file, 'r', encoding='utf-8') as f:
@@ -173,7 +173,7 @@ def validate_results():
     print_step(3, "验证结果", "检查生成的文件和数据...")
     
     # 检查数据文件
-    data_file = "D:\\code\\monitor_Gitcode_PR_efficiency\\triton_ascend_prs_analysis.json"
+    data_file = "/home/runner/work/monitor_Gitcode_PR_efficiency/monitor_Gitcode_PR_efficiency/triton_ascend_prs_analysis.json"
     if os.path.exists(data_file):
         print_success("✅ 数据文件存在")
     else:
@@ -226,7 +226,7 @@ def print_final_summary():
     print("🎉 任务完成总结")
     print("=" * 70)
     
-    data_file = "D:\\code\\monitor_Gitcode_PR_efficiency\\triton_ascend_prs_analysis.json"
+    data_file = "/home/runner/work/monitor_Gitcode_PR_efficiency/monitor_Gitcode_PR_efficiency/triton_ascend_prs_analysis.json"
     dashboard_file = "triton_pr_dashboard.html"
     
     print("📁 生成的文件:")
