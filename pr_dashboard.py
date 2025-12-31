@@ -63,7 +63,7 @@ def generate_pr_dashboard():
     """
     try:
         # 读取PR分析数据
-        with open('D:\\code\\monitor_Gitcode_PR_efficiency\\triton_ascend_prs_analysis.json', 'r', encoding='utf-8') as f:
+        with open('/home/runner/work/monitor_Gitcode_PR_efficiency/monitor_Gitcode_PR_efficiency/triton_ascend_prs_analysis.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
         
         merged_analysis = data['recent_merged_prs_analysis']
