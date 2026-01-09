@@ -1,7 +1,646 @@
 {
   "repository": "Ascend/triton-ascend",
-  "total_open_prs": 80,
+  "total_open_prs": 78,
   "recent_submitted_prs": [
+    {
+      "number": 1071,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1071",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1071",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": false,
+      "labels": [
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "68f1f7b2c9b4ed70dd500165",
+        "user_id": "7517830",
+        "object_id": "68f1f7b2c9b4ed70dd500165",
+        "login": "wutianyao",
+        "name": "wutianyao",
+        "state": "active",
+        "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/wutianyao"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "main2",
+        "ref": "main2",
+        "sha": "144c577fa098ea0346eca51c2637cf4aab1ff955",
+        "user": {
+          "id": "68f1f7b2c9b4ed70dd500165",
+          "login": "wutianyao",
+          "name": "wutianyao",
+          "state": "active",
+          "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+          "email": "wutianyao1@huawei.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/wutianyao"
+        },
+        "repo": {
+          "id": 8013046,
+          "full_path": "wutianyao/triton-ascend",
+          "full_name": "wutianyao/triton-ascend",
+          "human_name": "wutianyao / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "68f1f7b2c9b4ed70dd500165",
+            "login": "wutianyao",
+            "name": "wutianyao",
+            "state": "active",
+            "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+            "email": "wutianyao1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/wutianyao"
+          },
+          "assigner": {
+            "id": "68f1f7b2c9b4ed70dd500165",
+            "login": "wutianyao",
+            "name": "wutianyao",
+            "state": "active",
+            "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+            "email": "wutianyao1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/wutianyao"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/wutianyao/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8228897,
+      "iid": 1071,
+      "project_id": 7623225,
+      "title": "feat: Add autotune test cases for reduction functions",
+      "body": "## 描述\nAdd autotune test cases for reduction functions\n\n## checklist\n<!--  [x] 表示选中 -->\n- [x] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [x] 是否进行空指针校验\n- [x] 是否进行返回值校验\n- [x] 是否正确释放new/malloc申请的内存\n- [x] 是否充分考虑接口的异常场景\n- [x] 是否正确记录错误日志",
+      "state": "open",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T21:30:30+08:00",
+      "updated_at": "2026-01-08T21:30:39+08:00",
+      "merged_at": "",
+      "closed_at": "",
+      "target_branch": "main",
+      "source_branch": "main2",
+      "source_project_id": 8013046,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1071",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 224,
+      "removed_lines": 0,
+      "diff_refs": {
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "144c577fa098ea0346eca51c2637cf4aab1ff955",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
+      },
+      "notes": 4,
+      "source_git_url": "git@gitcode.com:wutianyao/triton-ascend.git",
+      "can_merge_check": false,
+      "mergeable": true,
+      "locked": false
+    },
+    {
+      "number": 1070,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1070",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1070",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": true,
+      "labels": [
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        },
+        {
+          "id": 1594,
+          "color": "#2865E0",
+          "name": "stat/needs-squash",
+          "title": "stat/needs-squash",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "68f841cc49a2234f8cc89cb3",
+        "user_id": "7586044",
+        "object_id": "68f841cc49a2234f8cc89cb3",
+        "login": "tarvlad",
+        "name": "tarvlad",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/tarvlad"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "master",
+        "ref": "master",
+        "sha": "2d5411bf483d5c3f17491a7d33ce74acd47368d6",
+        "user": {
+          "id": "68f841cc49a2234f8cc89cb3",
+          "login": "tarvlad",
+          "name": "tarvlad",
+          "state": "active",
+          "email": "tarasov.vladislav@huawei-partners.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/tarvlad"
+        },
+        "repo": {
+          "id": 8422487,
+          "full_path": "tarvlad/triton-ascend",
+          "full_name": "tarvlad/triton-ascend",
+          "human_name": "tarvlad / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "68f841cc49a2234f8cc89cb3",
+            "login": "tarvlad",
+            "name": "tarvlad",
+            "state": "active",
+            "email": "tarasov.vladislav@huawei-partners.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/tarvlad"
+          },
+          "assigner": {
+            "id": "68f841cc49a2234f8cc89cb3",
+            "login": "tarvlad",
+            "name": "tarvlad",
+            "state": "active",
+            "email": "tarasov.vladislav@huawei-partners.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/tarvlad"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/tarvlad/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "master",
+        "ref": "master",
+        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8228507,
+      "iid": 1070,
+      "project_id": 7623225,
+      "title": "[WIP] multiop reduce for 910_95",
+      "body": "multiop reduce for 910_95 - correct lowering of tt.reduce with arbitary body to linalg.reduce",
+      "state": "open",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T19:45:34+08:00",
+      "updated_at": "2026-01-08T19:45:43+08:00",
+      "merged_at": "",
+      "closed_at": "",
+      "target_branch": "master",
+      "source_branch": "master",
+      "source_project_id": 8422487,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1070",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 121,
+      "removed_lines": 64,
+      "diff_refs": {
+        "base_sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
+        "head_sha": "2d5411bf483d5c3f17491a7d33ce74acd47368d6",
+        "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
+      },
+      "notes": 4,
+      "source_git_url": "git@gitcode.com:tarvlad/triton-ascend.git",
+      "can_merge_check": false,
+      "mergeable": true,
+      "locked": false
+    },
+    {
+      "number": 1069,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1069",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1069",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": false,
+      "labels": [
+        {
+          "id": 4206,
+          "color": "#21BA45",
+          "name": "lgtm",
+          "title": "lgtm",
+          "repository_id": 7623225
+        },
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4165,
+          "color": "#21BA45",
+          "name": "approved",
+          "title": "approved",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "68d2232d3ea9c304181762b0",
+        "user_id": "7209525",
+        "object_id": "68d2232d3ea9c304181762b0",
+        "login": "KanuaK",
+        "name": "KanuaK",
+        "state": "active",
+        "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/KanuaK"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "bugfix/load-other-fp8",
+        "ref": "bugfix/load-other-fp8",
+        "sha": "2ed521d410b1857cf028ad2f05d4693e14ce733d",
+        "user": {
+          "id": "68d2232d3ea9c304181762b0",
+          "login": "KanuaK",
+          "name": "KanuaK",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+          "email": "zhouyihan1@huawei.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/KanuaK"
+        },
+        "repo": {
+          "id": 7670536,
+          "full_path": "KanuaK/triton-ascend",
+          "full_name": "KanuaK/triton-ascend",
+          "human_name": "KanuaK / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "68d2232d3ea9c304181762b0",
+            "login": "KanuaK",
+            "name": "KanuaK",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+            "email": "zhouyihan1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/KanuaK"
+          },
+          "assigner": {
+            "id": "68d2232d3ea9c304181762b0",
+            "login": "KanuaK",
+            "name": "KanuaK",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+            "email": "zhouyihan1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/KanuaK"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/KanuaK/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8228058,
+      "iid": 1069,
+      "project_id": 7623225,
+      "title": "fix(load): use correct default padding value based on data type in load operation",
+      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
+      "state": "merged",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T17:22:45+08:00",
+      "updated_at": "2026-01-08T19:15:44+08:00",
+      "merged_at": "2026-01-08T19:15:43+08:00",
+      "closed_at": "2026-01-08T19:15:43+08:00",
+      "target_branch": "main",
+      "source_branch": "bugfix/load-other-fp8",
+      "source_project_id": 7670536,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1069",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 9,
+      "removed_lines": 3,
+      "diff_refs": {
+        "base_sha": "e22bf65e05ba3a85cd5256b14350b83def1170c6",
+        "head_sha": "2ed521d410b1857cf028ad2f05d4693e14ce733d",
+        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+      },
+      "notes": 12,
+      "source_git_url": "git@gitcode.com:KanuaK/triton-ascend.git",
+      "can_merge_check": true,
+      "mergeable": true,
+      "locked": false
+    },
+    {
+      "number": 1068,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1068",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1068",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": false,
+      "labels": [
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "6823519a096b0e7b44aaafcc",
+        "user_id": "5594308",
+        "object_id": "6823519a096b0e7b44aaafcc",
+        "login": "leopold0801",
+        "name": "leopold0801",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/leopold0801"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "main",
+        "ref": "main",
+        "sha": "a7de8f76d503483e6a16c52d75c3687608b1b023",
+        "user": {
+          "id": "6823519a096b0e7b44aaafcc",
+          "login": "leopold0801",
+          "name": "leopold0801",
+          "state": "active",
+          "email": "982539404@qq.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/leopold0801"
+        },
+        "repo": {
+          "id": 7672390,
+          "full_path": "leopold0801/triton-ascend",
+          "full_name": "leopold0801/triton-ascend",
+          "human_name": "leopold0801 / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "6823519a096b0e7b44aaafcc",
+            "login": "leopold0801",
+            "name": "leopold0801",
+            "state": "active",
+            "email": "982539404@qq.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/leopold0801"
+          },
+          "assigner": {
+            "id": "6823519a096b0e7b44aaafcc",
+            "login": "leopold0801",
+            "name": "leopold0801",
+            "state": "active",
+            "email": "982539404@qq.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/leopold0801"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/leopold0801/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8226854,
+      "iid": 1068,
+      "project_id": 7623225,
+      "title": "fix(package):fix upload-pypi bug",
+      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
+      "state": "open",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T14:03:24+08:00",
+      "updated_at": "2026-01-08T19:15:44+08:00",
+      "merged_at": "",
+      "closed_at": "",
+      "target_branch": "main",
+      "source_branch": "main",
+      "source_project_id": 7672390,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1068",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 47,
+      "removed_lines": 5,
+      "diff_refs": {
+        "base_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "head_sha": "a7de8f76d503483e6a16c52d75c3687608b1b023",
+        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+      },
+      "notes": 25,
+      "source_git_url": "git@gitcode.com:leopold0801/triton-ascend.git",
+      "can_merge_check": false,
+      "mergeable": true,
+      "locked": false
+    },
     {
       "number": 1067,
       "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1067",
@@ -84,7 +723,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -136,7 +775,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T21:19:53+08:00",
-      "updated_at": "2026-01-07T21:27:43+08:00",
+      "updated_at": "2026-01-08T19:15:44+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -174,10 +813,17 @@
           "repository_id": 7623225
         },
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
+          "id": 4168,
+          "color": "#DB2828",
+          "name": "ci-pipeline-failed",
+          "title": "ci-pipeline-failed",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
           "repository_id": 7623225
         }
       ],
@@ -197,7 +843,7 @@
       "head": {
         "label": "main",
         "ref": "main",
-        "sha": "f6757f8b8c7920e4227db3fc1ebd132bfcc8a897",
+        "sha": "b1e0fe643ece78b17d193f211afb68bc07f2cb73",
         "user": {
           "id": "6720d2b00548ca5f3d8ad568",
           "login": "zircon_wang",
@@ -240,7 +886,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -287,12 +933,12 @@
       "iid": 1066,
       "project_id": 7623225,
       "title": "feat(triton_ascend): support sync_block_set/wait",
-      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
+      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [x] 是否进行返回值校验\n- [x] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
       "state": "open",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T21:13:42+08:00",
-      "updated_at": "2026-01-08T09:44:42+08:00",
+      "updated_at": "2026-01-09T09:16:42+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -301,14 +947,14 @@
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1066",
       "merge_request_type": "MergeRequest",
-      "added_lines": 156,
-      "removed_lines": 3,
+      "added_lines": 263,
+      "removed_lines": 2,
       "diff_refs": {
-        "base_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
-        "head_sha": "f6757f8b8c7920e4227db3fc1ebd132bfcc8a897",
-        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "b1e0fe643ece78b17d193f211afb68bc07f2cb73",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 10,
+      "notes": 81,
       "source_git_url": "git@gitcode.com:zircon_wang/triton-ascend_6700.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -396,7 +1042,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -448,7 +1094,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T19:34:00+08:00",
-      "updated_at": "2026-01-07T21:22:43+08:00",
+      "updated_at": "2026-01-08T19:15:45+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -479,17 +1125,24 @@
       "draft": false,
       "labels": [
         {
-          "id": 1591,
-          "color": "#e0293b",
-          "name": "ascend-cla/no",
-          "title": "ascend-cla/no",
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
           "repository_id": 7623225
         },
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
           "repository_id": 7623225
         }
       ],
@@ -509,7 +1162,7 @@
       "head": {
         "label": "main",
         "ref": "main",
-        "sha": "4acc0fc1fd864fe67036812bf0f0d0a51cb8cd5d",
+        "sha": "b316455f255fe84b6104b9e88c3a0ee5c3c13ac6",
         "user": {
           "id": "691490f20e87aa0e1966ed88",
           "login": "ttomoszek",
@@ -552,7 +1205,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -604,7 +1257,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T19:14:10+08:00",
-      "updated_at": "2026-01-07T22:19:22+08:00",
+      "updated_at": "2026-01-09T09:32:59+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -617,10 +1270,10 @@
       "removed_lines": 11,
       "diff_refs": {
         "base_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac",
-        "head_sha": "4acc0fc1fd864fe67036812bf0f0d0a51cb8cd5d",
+        "head_sha": "b316455f255fe84b6104b9e88c3a0ee5c3c13ac6",
         "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
       },
-      "notes": 7,
+      "notes": 18,
       "source_git_url": "git@gitcode.com:ttomoszek/triton-ascend_main_4.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -634,6 +1287,13 @@
       "prune_branch": false,
       "draft": false,
       "labels": [
+        {
+          "id": 1594,
+          "color": "#2865E0",
+          "name": "stat/needs-squash",
+          "title": "stat/needs-squash",
+          "repository_id": 7623225
+        },
         {
           "id": 1468,
           "color": "#29e047",
@@ -658,7 +1318,7 @@
       "head": {
         "label": "autotune_simt",
         "ref": "autotune_simt",
-        "sha": "b24c9b36adcefc8d75a5d6861cfea5567a2b098f",
+        "sha": "e4a508c2e63a78277c9be9179331ccc678f0759a",
         "user": {
           "id": "68ca1608e53de9418257d520",
           "login": "chnjz233",
@@ -753,7 +1413,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T19:14:06+08:00",
-      "updated_at": "2026-01-07T19:26:18+08:00",
+      "updated_at": "2026-01-08T11:22:16+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "master",
@@ -763,13 +1423,13 @@
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1063",
       "merge_request_type": "MergeRequest",
       "added_lines": 74,
-      "removed_lines": 20,
+      "removed_lines": 23,
       "diff_refs": {
         "base_sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
-        "head_sha": "b24c9b36adcefc8d75a5d6861cfea5567a2b098f",
+        "head_sha": "e4a508c2e63a78277c9be9179331ccc678f0759a",
         "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
       },
-      "notes": 7,
+      "notes": 8,
       "source_git_url": "git@gitcode.com:chnjz233/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -857,7 +1517,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -974,7 +1634,7 @@
       "head": {
         "label": "support-i1-compile-hint",
         "ref": "support-i1-compile-hint",
-        "sha": "ad3d31b4641cf4363e4aa5a26fa8b7ce8cfea634",
+        "sha": "bf787f35d85c302410d2a893c2bb617d3bf4902d",
         "user": {
           "id": "6809f927c6be6f6a0f7198aa",
           "login": "wcleungaj",
@@ -1015,9 +1675,9 @@
         }
       },
       "base": {
-        "label": "master",
-        "ref": "master",
-        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -1069,23 +1729,23 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T16:39:16+08:00",
-      "updated_at": "2026-01-07T20:06:57+08:00",
+      "updated_at": "2026-01-09T10:09:57+08:00",
       "merged_at": "",
       "closed_at": "",
-      "target_branch": "master",
+      "target_branch": "main",
       "source_branch": "support-i1-compile-hint",
       "source_project_id": 7783281,
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1061",
       "merge_request_type": "MergeRequest",
-      "added_lines": 89,
+      "added_lines": 127,
       "removed_lines": 24,
       "diff_refs": {
-        "base_sha": "0d2c8ce3d4d7aedd10eb1719c819d354f6c79855",
-        "head_sha": "ad3d31b4641cf4363e4aa5a26fa8b7ce8cfea634",
-        "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "bf787f35d85c302410d2a893c2bb617d3bf4902d",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 5,
+      "notes": 7,
       "source_git_url": "git@gitcode.com:wcleungaj/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -1173,7 +1833,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -1225,7 +1885,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T16:38:54+08:00",
-      "updated_at": "2026-01-07T19:09:07+08:00",
+      "updated_at": "2026-01-08T19:15:45+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -1256,17 +1916,24 @@
       "draft": false,
       "labels": [
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
-          "repository_id": 7623225
-        },
-        {
           "id": 1468,
           "color": "#29e047",
           "name": "ascend-cla/yes",
           "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4170,
+          "color": "#1083d6",
+          "name": "ci-pipeline-running",
+          "title": "ci-pipeline-running",
           "repository_id": 7623225
         }
       ],
@@ -1286,7 +1953,7 @@
       "head": {
         "label": "triton-ascend0107",
         "ref": "triton-ascend0107",
-        "sha": "5ad942b38d71ffcf6a068db0b0af175bf15a1d15",
+        "sha": "7aa29f5b86785cb3ea4c839ceb42dc5a26403585",
         "user": {
           "id": "6720d1aad1bf1f7663bf62c6",
           "login": "nanalin",
@@ -1329,7 +1996,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -1381,7 +2048,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T15:36:49+08:00",
-      "updated_at": "2026-01-08T09:23:20+08:00",
+      "updated_at": "2026-01-09T10:56:57+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -1390,14 +2057,14 @@
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1059",
       "merge_request_type": "MergeRequest",
-      "added_lines": 193,
-      "removed_lines": 2,
+      "added_lines": 77,
+      "removed_lines": 7,
       "diff_refs": {
-        "base_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac",
-        "head_sha": "5ad942b38d71ffcf6a068db0b0af175bf15a1d15",
-        "start_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "7aa29f5b86785cb3ea4c839ceb42dc5a26403585",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 9,
+      "notes": 57,
       "source_git_url": "git@gitcode.com:nanalin/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -1496,7 +2163,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -1548,7 +2215,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T11:29:46+08:00",
-      "updated_at": "2026-01-07T19:09:08+08:00",
+      "updated_at": "2026-01-08T19:15:46+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -1567,7 +2234,7 @@
       "notes": 16,
       "source_git_url": "git@gitcode.com:high-cloud/triton-ascend.git",
       "can_merge_check": false,
-      "mergeable": true,
+      "mergeable": false,
       "locked": false
     },
     {
@@ -1673,7 +2340,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -1836,7 +2503,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -1884,13 +2551,24 @@
       "project_id": 7623225,
       "title": "[WIP]feat(sync_block_set/wait): support al.sync_block_set/wait",
       "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
-      "state": "open",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-06T16:03:10+08:00",
-      "updated_at": "2026-01-07T19:09:09+08:00",
+      "updated_at": "2026-01-09T09:34:50+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 2047954,
+        "name": "zircon_wang",
+        "username": "zircon_wang",
+        "iam_id": "176fb22263e244e791485574a46e3430",
+        "nick_name": "zircon_wang",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/zircon_wang"
+      },
+      "closed_at": "2026-01-09T09:34:49+08:00",
       "target_branch": "main",
       "source_branch": "pr-1049",
       "source_project_id": 8908099,
@@ -2017,7 +2695,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -2173,7 +2851,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -2225,7 +2903,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-06T15:16:03+08:00",
-      "updated_at": "2026-01-07T19:09:09+08:00",
+      "updated_at": "2026-01-08T19:15:47+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -2354,7 +3032,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -2531,7 +3209,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -2708,7 +3386,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -2972,13 +3650,6 @@
       "draft": false,
       "labels": [
         {
-          "id": 4168,
-          "color": "#DB2828",
-          "name": "ci-pipeline-failed",
-          "title": "ci-pipeline-failed",
-          "repository_id": 7623225
-        },
-        {
           "id": 1468,
           "color": "#29e047",
           "name": "ascend-cla/yes",
@@ -2986,10 +3657,10 @@
           "repository_id": 7623225
         },
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
+          "id": 4168,
+          "color": "#DB2828",
+          "name": "ci-pipeline-failed",
+          "title": "ci-pipeline-failed",
           "repository_id": 7623225
         }
       ],
@@ -3010,7 +3681,7 @@
       "head": {
         "label": "buffer_language",
         "ref": "buffer_language",
-        "sha": "5ea8829c0092f18c94f3e5e846cee4c24dc70f3e",
+        "sha": "17bee9bc9e1cfcf144a23343a98621909c15a36c",
         "user": {
           "id": "68ca7d0108a9b87054fdec05",
           "login": "liheng1234",
@@ -3056,7 +3727,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -3108,7 +3779,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-05T20:40:54+08:00",
-      "updated_at": "2026-01-08T10:47:45+08:00",
+      "updated_at": "2026-01-09T10:17:55+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -3117,14 +3788,14 @@
       "force_remove_source_branch": true,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1049",
       "merge_request_type": "MergeRequest",
-      "added_lines": 630,
+      "added_lines": 634,
       "removed_lines": 59,
       "diff_refs": {
-        "base_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac",
-        "head_sha": "5ea8829c0092f18c94f3e5e846cee4c24dc70f3e",
-        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "17bee9bc9e1cfcf144a23343a98621909c15a36c",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 88,
+      "notes": 92,
       "source_git_url": "git@gitcode.com:liheng1234/triton-ascend_tmp.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -3244,7 +3915,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -3400,7 +4071,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -3452,7 +4123,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-05T20:29:09+08:00",
-      "updated_at": "2026-01-07T19:09:10+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -3690,7 +4361,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -3784,17 +4455,17 @@
       "draft": false,
       "labels": [
         {
-          "id": 4168,
-          "color": "#DB2828",
-          "name": "ci-pipeline-failed",
-          "title": "ci-pipeline-failed",
-          "repository_id": 7623225
-        },
-        {
           "id": 4163,
           "color": "#20c22e",
           "name": "SC-SUCC",
           "title": "SC-SUCC",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
           "repository_id": 7623225
         },
         {
@@ -3864,7 +4535,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -3916,7 +4587,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-05T19:32:46+08:00",
-      "updated_at": "2026-01-08T10:55:47+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -3932,7 +4603,7 @@
         "head_sha": "e5861f07843a4da1e5ace5104d0c8e12d1c3d3b5",
         "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
       },
-      "notes": 80,
+      "notes": 89,
       "source_git_url": "git@gitcode.com:hbhu_bin/fork-triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -4205,7 +4876,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -4382,7 +5053,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -4563,7 +5234,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -4886,7 +5557,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -4938,7 +5609,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-04T17:22:48+08:00",
-      "updated_at": "2026-01-07T19:09:11+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -5382,7 +6053,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -5559,7 +6230,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -5715,7 +6386,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -5767,7 +6438,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-02T21:20:16+08:00",
-      "updated_at": "2026-01-07T19:09:11+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -5791,12 +6462,20 @@
     }
   ],
   "recent_merged_prs_analysis": {
-    "count": 12,
-    "total_duration_days": 6.533611111111111,
-    "average_duration_days": 0.54,
+    "count": 13,
+    "total_duration_days": 6.612060185185186,
+    "average_duration_days": 0.51,
     "min_duration_days": 0.01050925925925926,
     "max_duration_days": 1.5257291666666668,
     "pr_details": [
+      {
+        "number": 1069,
+        "title": "fix(load): use correct default padding value based on data type in load operation",
+        "created_at": "2026-01-08T17:22:45+08:00",
+        "merged_at": "2026-01-08T19:15:43+08:00",
+        "duration_days": 0.08,
+        "duration_hours": 1.88
+      },
       {
         "number": 1057,
         "title": "fix(msprof): update task_type and mix_block_dim_ratio from bs_task_type",
@@ -5896,6 +6575,7 @@
     ]
   },
   "daily_submissions": {
+    "2026-01-08": 4,
     "2026-01-07": 11,
     "2026-01-06": 6,
     "2026-01-05": 12,
@@ -5905,23 +6585,661 @@
     "2025-12-30": 12,
     "2025-12-29": 7,
     "2025-12-27": 4,
-    "2025-12-26": 2,
-    "2025-12-25": 4
+    "2025-12-26": 2
   },
   "daily_failed_submissions": {
-    "2026-01-07": 7,
+    "2026-01-08": 0,
+    "2026-01-07": 5,
     "2026-01-06": 1,
-    "2026-01-05": 2,
+    "2026-01-05": 1,
     "2026-01-04": 0,
     "2026-01-02": 0,
     "2025-12-31": 0,
     "2025-12-30": 0,
     "2025-12-29": 0,
     "2025-12-27": 0,
-    "2025-12-26": 0,
-    "2025-12-25": 2
+    "2025-12-26": 0
   },
   "all_prs": [
+    {
+      "number": 1071,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1071",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1071",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": false,
+      "labels": [
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "68f1f7b2c9b4ed70dd500165",
+        "user_id": "7517830",
+        "object_id": "68f1f7b2c9b4ed70dd500165",
+        "login": "wutianyao",
+        "name": "wutianyao",
+        "state": "active",
+        "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/wutianyao"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "main2",
+        "ref": "main2",
+        "sha": "144c577fa098ea0346eca51c2637cf4aab1ff955",
+        "user": {
+          "id": "68f1f7b2c9b4ed70dd500165",
+          "login": "wutianyao",
+          "name": "wutianyao",
+          "state": "active",
+          "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+          "email": "wutianyao1@huawei.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/wutianyao"
+        },
+        "repo": {
+          "id": 8013046,
+          "full_path": "wutianyao/triton-ascend",
+          "full_name": "wutianyao/triton-ascend",
+          "human_name": "wutianyao / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "68f1f7b2c9b4ed70dd500165",
+            "login": "wutianyao",
+            "name": "wutianyao",
+            "state": "active",
+            "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+            "email": "wutianyao1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/wutianyao"
+          },
+          "assigner": {
+            "id": "68f1f7b2c9b4ed70dd500165",
+            "login": "wutianyao",
+            "name": "wutianyao",
+            "state": "active",
+            "avatar_url": "https://gitcode-user-img.obs.cn-north-4.myhuaweicloud.com:443/fd/cd/fdc02defb3b3a599f6291b6ca8a09a52c37d2b583066df0541735fb520cba803.jpeg?time=1762484175810",
+            "email": "wutianyao1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/wutianyao"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/wutianyao/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8228897,
+      "iid": 1071,
+      "project_id": 7623225,
+      "title": "feat: Add autotune test cases for reduction functions",
+      "body": "## 描述\nAdd autotune test cases for reduction functions\n\n## checklist\n<!--  [x] 表示选中 -->\n- [x] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [x] 是否进行空指针校验\n- [x] 是否进行返回值校验\n- [x] 是否正确释放new/malloc申请的内存\n- [x] 是否充分考虑接口的异常场景\n- [x] 是否正确记录错误日志",
+      "state": "open",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T21:30:30+08:00",
+      "updated_at": "2026-01-08T21:30:39+08:00",
+      "merged_at": "",
+      "closed_at": "",
+      "target_branch": "main",
+      "source_branch": "main2",
+      "source_project_id": 8013046,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1071",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 224,
+      "removed_lines": 0,
+      "diff_refs": {
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "144c577fa098ea0346eca51c2637cf4aab1ff955",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
+      },
+      "notes": 4,
+      "source_git_url": "git@gitcode.com:wutianyao/triton-ascend.git",
+      "can_merge_check": false,
+      "mergeable": true,
+      "locked": false
+    },
+    {
+      "number": 1070,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1070",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1070",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": true,
+      "labels": [
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        },
+        {
+          "id": 1594,
+          "color": "#2865E0",
+          "name": "stat/needs-squash",
+          "title": "stat/needs-squash",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "68f841cc49a2234f8cc89cb3",
+        "user_id": "7586044",
+        "object_id": "68f841cc49a2234f8cc89cb3",
+        "login": "tarvlad",
+        "name": "tarvlad",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/tarvlad"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "master",
+        "ref": "master",
+        "sha": "2d5411bf483d5c3f17491a7d33ce74acd47368d6",
+        "user": {
+          "id": "68f841cc49a2234f8cc89cb3",
+          "login": "tarvlad",
+          "name": "tarvlad",
+          "state": "active",
+          "email": "tarasov.vladislav@huawei-partners.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/tarvlad"
+        },
+        "repo": {
+          "id": 8422487,
+          "full_path": "tarvlad/triton-ascend",
+          "full_name": "tarvlad/triton-ascend",
+          "human_name": "tarvlad / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "68f841cc49a2234f8cc89cb3",
+            "login": "tarvlad",
+            "name": "tarvlad",
+            "state": "active",
+            "email": "tarasov.vladislav@huawei-partners.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/tarvlad"
+          },
+          "assigner": {
+            "id": "68f841cc49a2234f8cc89cb3",
+            "login": "tarvlad",
+            "name": "tarvlad",
+            "state": "active",
+            "email": "tarasov.vladislav@huawei-partners.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/tarvlad"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/tarvlad/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "master",
+        "ref": "master",
+        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8228507,
+      "iid": 1070,
+      "project_id": 7623225,
+      "title": "[WIP] multiop reduce for 910_95",
+      "body": "multiop reduce for 910_95 - correct lowering of tt.reduce with arbitary body to linalg.reduce",
+      "state": "open",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T19:45:34+08:00",
+      "updated_at": "2026-01-08T19:45:43+08:00",
+      "merged_at": "",
+      "closed_at": "",
+      "target_branch": "master",
+      "source_branch": "master",
+      "source_project_id": 8422487,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1070",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 121,
+      "removed_lines": 64,
+      "diff_refs": {
+        "base_sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
+        "head_sha": "2d5411bf483d5c3f17491a7d33ce74acd47368d6",
+        "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
+      },
+      "notes": 4,
+      "source_git_url": "git@gitcode.com:tarvlad/triton-ascend.git",
+      "can_merge_check": false,
+      "mergeable": true,
+      "locked": false
+    },
+    {
+      "number": 1069,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1069",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1069",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": false,
+      "labels": [
+        {
+          "id": 4206,
+          "color": "#21BA45",
+          "name": "lgtm",
+          "title": "lgtm",
+          "repository_id": 7623225
+        },
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4165,
+          "color": "#21BA45",
+          "name": "approved",
+          "title": "approved",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "68d2232d3ea9c304181762b0",
+        "user_id": "7209525",
+        "object_id": "68d2232d3ea9c304181762b0",
+        "login": "KanuaK",
+        "name": "KanuaK",
+        "state": "active",
+        "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/KanuaK"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "bugfix/load-other-fp8",
+        "ref": "bugfix/load-other-fp8",
+        "sha": "2ed521d410b1857cf028ad2f05d4693e14ce733d",
+        "user": {
+          "id": "68d2232d3ea9c304181762b0",
+          "login": "KanuaK",
+          "name": "KanuaK",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+          "email": "zhouyihan1@huawei.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/KanuaK"
+        },
+        "repo": {
+          "id": 7670536,
+          "full_path": "KanuaK/triton-ascend",
+          "full_name": "KanuaK/triton-ascend",
+          "human_name": "KanuaK / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "68d2232d3ea9c304181762b0",
+            "login": "KanuaK",
+            "name": "KanuaK",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+            "email": "zhouyihan1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/KanuaK"
+          },
+          "assigner": {
+            "id": "68d2232d3ea9c304181762b0",
+            "login": "KanuaK",
+            "name": "KanuaK",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/af/ec/261a870f1854e263c1c6d1c54342264944a909aaae937b713a488e19cc4cec39.jpg",
+            "email": "zhouyihan1@huawei.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/KanuaK"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/KanuaK/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8228058,
+      "iid": 1069,
+      "project_id": 7623225,
+      "title": "fix(load): use correct default padding value based on data type in load operation",
+      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
+      "state": "merged",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T17:22:45+08:00",
+      "updated_at": "2026-01-08T19:15:44+08:00",
+      "merged_at": "2026-01-08T19:15:43+08:00",
+      "closed_at": "2026-01-08T19:15:43+08:00",
+      "target_branch": "main",
+      "source_branch": "bugfix/load-other-fp8",
+      "source_project_id": 7670536,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1069",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 9,
+      "removed_lines": 3,
+      "diff_refs": {
+        "base_sha": "e22bf65e05ba3a85cd5256b14350b83def1170c6",
+        "head_sha": "2ed521d410b1857cf028ad2f05d4693e14ce733d",
+        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+      },
+      "notes": 12,
+      "source_git_url": "git@gitcode.com:KanuaK/triton-ascend.git",
+      "can_merge_check": true,
+      "mergeable": true,
+      "locked": false
+    },
+    {
+      "number": 1068,
+      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1068",
+      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/1068",
+      "close_related_issue": 0,
+      "prune_branch": false,
+      "draft": false,
+      "labels": [
+        {
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        }
+      ],
+      "user": {
+        "id": "6823519a096b0e7b44aaafcc",
+        "user_id": "5594308",
+        "object_id": "6823519a096b0e7b44aaafcc",
+        "login": "leopold0801",
+        "name": "leopold0801",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "html_url": "https://gitcode.com/leopold0801"
+      },
+      "assignees": [],
+      "testers": [],
+      "head": {
+        "label": "main",
+        "ref": "main",
+        "sha": "a7de8f76d503483e6a16c52d75c3687608b1b023",
+        "user": {
+          "id": "6823519a096b0e7b44aaafcc",
+          "login": "leopold0801",
+          "name": "leopold0801",
+          "state": "active",
+          "email": "982539404@qq.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/leopold0801"
+        },
+        "repo": {
+          "id": 7672390,
+          "full_path": "leopold0801/triton-ascend",
+          "full_name": "leopold0801/triton-ascend",
+          "human_name": "leopold0801 / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "6823519a096b0e7b44aaafcc",
+            "login": "leopold0801",
+            "name": "leopold0801",
+            "state": "active",
+            "email": "982539404@qq.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/leopold0801"
+          },
+          "assigner": {
+            "id": "6823519a096b0e7b44aaafcc",
+            "login": "leopold0801",
+            "name": "leopold0801",
+            "state": "active",
+            "email": "982539404@qq.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/leopold0801"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/leopold0801/triton-ascend.git"
+        }
+      },
+      "base": {
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "user": {
+          "id": "650d67fbae6d795139b49b41",
+          "login": "dengmengmian",
+          "name": "麻凡",
+          "state": "active",
+          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+          "email": "my@dengmengmian.com",
+          "name_cn": "",
+          "html_url": "https://gitcode.com/dengmengmian"
+        },
+        "repo": {
+          "id": 7623225,
+          "full_path": "Ascend/triton-ascend",
+          "full_name": "Ascend/triton-ascend",
+          "human_name": "Ascend / triton-ascend",
+          "name": "triton-ascend",
+          "path": "triton-ascend",
+          "description": "triton-ascend",
+          "owner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "assigner": {
+            "id": "650d67fbae6d795139b49b41",
+            "login": "dengmengmian",
+            "name": "麻凡",
+            "state": "active",
+            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
+            "email": "my@dengmengmian.com",
+            "name_cn": "",
+            "html_url": "https://gitcode.com/dengmengmian"
+          },
+          "internal": false,
+          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
+        }
+      },
+      "id": 8226854,
+      "iid": 1068,
+      "project_id": 7623225,
+      "title": "fix(package):fix upload-pypi bug",
+      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
+      "state": "open",
+      "assignees_number": 0,
+      "testers_number": 0,
+      "created_at": "2026-01-08T14:03:24+08:00",
+      "updated_at": "2026-01-08T19:15:44+08:00",
+      "merged_at": "",
+      "closed_at": "",
+      "target_branch": "main",
+      "source_branch": "main",
+      "source_project_id": 7672390,
+      "force_remove_source_branch": false,
+      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1068",
+      "merge_request_type": "MergeRequest",
+      "added_lines": 47,
+      "removed_lines": 5,
+      "diff_refs": {
+        "base_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "head_sha": "a7de8f76d503483e6a16c52d75c3687608b1b023",
+        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+      },
+      "notes": 25,
+      "source_git_url": "git@gitcode.com:leopold0801/triton-ascend.git",
+      "can_merge_check": false,
+      "mergeable": true,
+      "locked": false
+    },
     {
       "number": 1067,
       "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1067",
@@ -6004,7 +7322,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -6056,7 +7374,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T21:19:53+08:00",
-      "updated_at": "2026-01-07T21:27:43+08:00",
+      "updated_at": "2026-01-08T19:15:44+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -6094,10 +7412,17 @@
           "repository_id": 7623225
         },
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
+          "id": 4168,
+          "color": "#DB2828",
+          "name": "ci-pipeline-failed",
+          "title": "ci-pipeline-failed",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
           "repository_id": 7623225
         }
       ],
@@ -6117,7 +7442,7 @@
       "head": {
         "label": "main",
         "ref": "main",
-        "sha": "f6757f8b8c7920e4227db3fc1ebd132bfcc8a897",
+        "sha": "b1e0fe643ece78b17d193f211afb68bc07f2cb73",
         "user": {
           "id": "6720d2b00548ca5f3d8ad568",
           "login": "zircon_wang",
@@ -6160,7 +7485,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -6207,12 +7532,12 @@
       "iid": 1066,
       "project_id": 7623225,
       "title": "feat(triton_ascend): support sync_block_set/wait",
-      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
+      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [x] 是否进行返回值校验\n- [x] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
       "state": "open",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T21:13:42+08:00",
-      "updated_at": "2026-01-08T09:44:42+08:00",
+      "updated_at": "2026-01-09T09:16:42+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -6221,14 +7546,14 @@
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1066",
       "merge_request_type": "MergeRequest",
-      "added_lines": 156,
-      "removed_lines": 3,
+      "added_lines": 263,
+      "removed_lines": 2,
       "diff_refs": {
-        "base_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
-        "head_sha": "f6757f8b8c7920e4227db3fc1ebd132bfcc8a897",
-        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "b1e0fe643ece78b17d193f211afb68bc07f2cb73",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 10,
+      "notes": 81,
       "source_git_url": "git@gitcode.com:zircon_wang/triton-ascend_6700.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -6316,7 +7641,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -6368,7 +7693,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T19:34:00+08:00",
-      "updated_at": "2026-01-07T21:22:43+08:00",
+      "updated_at": "2026-01-08T19:15:45+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -6399,17 +7724,24 @@
       "draft": false,
       "labels": [
         {
-          "id": 1591,
-          "color": "#e0293b",
-          "name": "ascend-cla/no",
-          "title": "ascend-cla/no",
+          "id": 1468,
+          "color": "#29e047",
+          "name": "ascend-cla/yes",
+          "title": "ascend-cla/yes",
           "repository_id": 7623225
         },
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
           "repository_id": 7623225
         }
       ],
@@ -6429,7 +7761,7 @@
       "head": {
         "label": "main",
         "ref": "main",
-        "sha": "4acc0fc1fd864fe67036812bf0f0d0a51cb8cd5d",
+        "sha": "b316455f255fe84b6104b9e88c3a0ee5c3c13ac6",
         "user": {
           "id": "691490f20e87aa0e1966ed88",
           "login": "ttomoszek",
@@ -6472,7 +7804,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -6524,7 +7856,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T19:14:10+08:00",
-      "updated_at": "2026-01-07T22:19:22+08:00",
+      "updated_at": "2026-01-09T09:32:59+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -6537,10 +7869,10 @@
       "removed_lines": 11,
       "diff_refs": {
         "base_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac",
-        "head_sha": "4acc0fc1fd864fe67036812bf0f0d0a51cb8cd5d",
+        "head_sha": "b316455f255fe84b6104b9e88c3a0ee5c3c13ac6",
         "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
       },
-      "notes": 7,
+      "notes": 18,
       "source_git_url": "git@gitcode.com:ttomoszek/triton-ascend_main_4.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -6554,6 +7886,13 @@
       "prune_branch": false,
       "draft": false,
       "labels": [
+        {
+          "id": 1594,
+          "color": "#2865E0",
+          "name": "stat/needs-squash",
+          "title": "stat/needs-squash",
+          "repository_id": 7623225
+        },
         {
           "id": 1468,
           "color": "#29e047",
@@ -6578,7 +7917,7 @@
       "head": {
         "label": "autotune_simt",
         "ref": "autotune_simt",
-        "sha": "b24c9b36adcefc8d75a5d6861cfea5567a2b098f",
+        "sha": "e4a508c2e63a78277c9be9179331ccc678f0759a",
         "user": {
           "id": "68ca1608e53de9418257d520",
           "login": "chnjz233",
@@ -6673,7 +8012,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T19:14:06+08:00",
-      "updated_at": "2026-01-07T19:26:18+08:00",
+      "updated_at": "2026-01-08T11:22:16+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "master",
@@ -6683,13 +8022,13 @@
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1063",
       "merge_request_type": "MergeRequest",
       "added_lines": 74,
-      "removed_lines": 20,
+      "removed_lines": 23,
       "diff_refs": {
         "base_sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
-        "head_sha": "b24c9b36adcefc8d75a5d6861cfea5567a2b098f",
+        "head_sha": "e4a508c2e63a78277c9be9179331ccc678f0759a",
         "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
       },
-      "notes": 7,
+      "notes": 8,
       "source_git_url": "git@gitcode.com:chnjz233/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -6777,7 +8116,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -6894,7 +8233,7 @@
       "head": {
         "label": "support-i1-compile-hint",
         "ref": "support-i1-compile-hint",
-        "sha": "ad3d31b4641cf4363e4aa5a26fa8b7ce8cfea634",
+        "sha": "bf787f35d85c302410d2a893c2bb617d3bf4902d",
         "user": {
           "id": "6809f927c6be6f6a0f7198aa",
           "login": "wcleungaj",
@@ -6935,9 +8274,9 @@
         }
       },
       "base": {
-        "label": "master",
-        "ref": "master",
-        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
+        "label": "main",
+        "ref": "main",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -6989,23 +8328,23 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T16:39:16+08:00",
-      "updated_at": "2026-01-07T20:06:57+08:00",
+      "updated_at": "2026-01-09T10:09:57+08:00",
       "merged_at": "",
       "closed_at": "",
-      "target_branch": "master",
+      "target_branch": "main",
       "source_branch": "support-i1-compile-hint",
       "source_project_id": 7783281,
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1061",
       "merge_request_type": "MergeRequest",
-      "added_lines": 89,
+      "added_lines": 127,
       "removed_lines": 24,
       "diff_refs": {
-        "base_sha": "0d2c8ce3d4d7aedd10eb1719c819d354f6c79855",
-        "head_sha": "ad3d31b4641cf4363e4aa5a26fa8b7ce8cfea634",
-        "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "bf787f35d85c302410d2a893c2bb617d3bf4902d",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 5,
+      "notes": 7,
       "source_git_url": "git@gitcode.com:wcleungaj/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -7093,7 +8432,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -7145,7 +8484,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T16:38:54+08:00",
-      "updated_at": "2026-01-07T19:09:07+08:00",
+      "updated_at": "2026-01-08T19:15:45+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -7176,17 +8515,24 @@
       "draft": false,
       "labels": [
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
-          "repository_id": 7623225
-        },
-        {
           "id": 1468,
           "color": "#29e047",
           "name": "ascend-cla/yes",
           "title": "ascend-cla/yes",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4163,
+          "color": "#20c22e",
+          "name": "SC-SUCC",
+          "title": "SC-SUCC",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4170,
+          "color": "#1083d6",
+          "name": "ci-pipeline-running",
+          "title": "ci-pipeline-running",
           "repository_id": 7623225
         }
       ],
@@ -7206,7 +8552,7 @@
       "head": {
         "label": "triton-ascend0107",
         "ref": "triton-ascend0107",
-        "sha": "5ad942b38d71ffcf6a068db0b0af175bf15a1d15",
+        "sha": "7aa29f5b86785cb3ea4c839ceb42dc5a26403585",
         "user": {
           "id": "6720d1aad1bf1f7663bf62c6",
           "login": "nanalin",
@@ -7249,7 +8595,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -7301,7 +8647,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T15:36:49+08:00",
-      "updated_at": "2026-01-08T09:23:20+08:00",
+      "updated_at": "2026-01-09T10:56:57+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -7310,14 +8656,14 @@
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1059",
       "merge_request_type": "MergeRequest",
-      "added_lines": 193,
-      "removed_lines": 2,
+      "added_lines": 77,
+      "removed_lines": 7,
       "diff_refs": {
-        "base_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac",
-        "head_sha": "5ad942b38d71ffcf6a068db0b0af175bf15a1d15",
-        "start_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "7aa29f5b86785cb3ea4c839ceb42dc5a26403585",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 9,
+      "notes": 57,
       "source_git_url": "git@gitcode.com:nanalin/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -7416,7 +8762,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -7468,7 +8814,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-07T11:29:46+08:00",
-      "updated_at": "2026-01-07T19:09:08+08:00",
+      "updated_at": "2026-01-08T19:15:46+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -7487,7 +8833,7 @@
       "notes": 16,
       "source_git_url": "git@gitcode.com:high-cloud/triton-ascend.git",
       "can_merge_check": false,
-      "mergeable": true,
+      "mergeable": false,
       "locked": false
     },
     {
@@ -7593,7 +8939,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -7756,7 +9102,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -7804,13 +9150,24 @@
       "project_id": 7623225,
       "title": "[WIP]feat(sync_block_set/wait): support al.sync_block_set/wait",
       "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
-      "state": "open",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-06T16:03:10+08:00",
-      "updated_at": "2026-01-07T19:09:09+08:00",
+      "updated_at": "2026-01-09T09:34:50+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 2047954,
+        "name": "zircon_wang",
+        "username": "zircon_wang",
+        "iam_id": "176fb22263e244e791485574a46e3430",
+        "nick_name": "zircon_wang",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/zircon_wang"
+      },
+      "closed_at": "2026-01-09T09:34:49+08:00",
       "target_branch": "main",
       "source_branch": "pr-1049",
       "source_project_id": 8908099,
@@ -7937,7 +9294,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -8093,7 +9450,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -8145,7 +9502,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-06T15:16:03+08:00",
-      "updated_at": "2026-01-07T19:09:09+08:00",
+      "updated_at": "2026-01-08T19:15:47+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -8274,7 +9631,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -8451,7 +9808,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -8628,7 +9985,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -8892,13 +10249,6 @@
       "draft": false,
       "labels": [
         {
-          "id": 4168,
-          "color": "#DB2828",
-          "name": "ci-pipeline-failed",
-          "title": "ci-pipeline-failed",
-          "repository_id": 7623225
-        },
-        {
           "id": 1468,
           "color": "#29e047",
           "name": "ascend-cla/yes",
@@ -8906,10 +10256,10 @@
           "repository_id": 7623225
         },
         {
-          "id": 4160,
-          "color": "#ec0019",
-          "name": "SC-FAIL",
-          "title": "SC-FAIL",
+          "id": 4168,
+          "color": "#DB2828",
+          "name": "ci-pipeline-failed",
+          "title": "ci-pipeline-failed",
           "repository_id": 7623225
         }
       ],
@@ -8930,7 +10280,7 @@
       "head": {
         "label": "buffer_language",
         "ref": "buffer_language",
-        "sha": "5ea8829c0092f18c94f3e5e846cee4c24dc70f3e",
+        "sha": "17bee9bc9e1cfcf144a23343a98621909c15a36c",
         "user": {
           "id": "68ca7d0108a9b87054fdec05",
           "login": "liheng1234",
@@ -8976,7 +10326,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -9028,7 +10378,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-05T20:40:54+08:00",
-      "updated_at": "2026-01-08T10:47:45+08:00",
+      "updated_at": "2026-01-09T10:17:55+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -9037,14 +10387,14 @@
       "force_remove_source_branch": true,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/1049",
       "merge_request_type": "MergeRequest",
-      "added_lines": 630,
+      "added_lines": 634,
       "removed_lines": 59,
       "diff_refs": {
-        "base_sha": "56291b3bab029b9d484609a5bc5aac0a79b94eac",
-        "head_sha": "5ea8829c0092f18c94f3e5e846cee4c24dc70f3e",
-        "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
+        "base_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
+        "head_sha": "17bee9bc9e1cfcf144a23343a98621909c15a36c",
+        "start_sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672"
       },
-      "notes": 88,
+      "notes": 92,
       "source_git_url": "git@gitcode.com:liheng1234/triton-ascend_tmp.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -9164,7 +10514,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -9320,7 +10670,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -9372,7 +10722,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-05T20:29:09+08:00",
-      "updated_at": "2026-01-07T19:09:10+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -9610,7 +10960,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -9704,17 +11054,17 @@
       "draft": false,
       "labels": [
         {
-          "id": 4168,
-          "color": "#DB2828",
-          "name": "ci-pipeline-failed",
-          "title": "ci-pipeline-failed",
-          "repository_id": 7623225
-        },
-        {
           "id": 4163,
           "color": "#20c22e",
           "name": "SC-SUCC",
           "title": "SC-SUCC",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
           "repository_id": 7623225
         },
         {
@@ -9784,7 +11134,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -9836,7 +11186,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-05T19:32:46+08:00",
-      "updated_at": "2026-01-08T10:55:47+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -9852,7 +11202,7 @@
         "head_sha": "e5861f07843a4da1e5ace5104d0c8e12d1c3d3b5",
         "start_sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53"
       },
-      "notes": 80,
+      "notes": 89,
       "source_git_url": "git@gitcode.com:hbhu_bin/fork-triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -10125,7 +11475,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -10302,7 +11652,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -10483,7 +11833,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -10806,7 +12156,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -10858,7 +12208,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-04T17:22:48+08:00",
-      "updated_at": "2026-01-07T19:09:11+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -11302,7 +12652,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -11479,7 +12829,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -11635,7 +12985,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -11687,7 +13037,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-01-02T21:20:16+08:00",
-      "updated_at": "2026-01-07T19:09:11+08:00",
+      "updated_at": "2026-01-08T19:15:48+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -11812,7 +13162,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -11993,7 +13343,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -12686,7 +14036,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -13023,7 +14373,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -13204,7 +14554,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -13385,7 +14735,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -13566,7 +14916,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -13743,7 +15093,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -13924,7 +15274,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -14105,7 +15455,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -14286,7 +15636,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -14463,7 +15813,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -14640,7 +15990,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -14821,7 +16171,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -14998,7 +16348,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -15175,7 +16525,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -15345,7 +16695,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -16347,7 +17697,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -17327,7 +18677,7 @@
       "base": {
         "label": "main",
         "ref": "main",
-        "sha": "b885d0989dae658cf26b7aee47eb5eb0d24bcd53",
+        "sha": "dfd65791c83cb3629b7eeade90179c3fbb8c8672",
         "user": {
           "id": "650d67fbae6d795139b49b41",
           "login": "dengmengmian",
@@ -17708,13 +19058,24 @@
       "project_id": 7623225,
       "title": "fix(msprof): update task_type and mix_block_dim_ratio from bs_task_type",
       "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n### 一、背景\n当前性能采集流程存在两类核心问题，直接导致mix类型算子性能分析偏差：\n1. **task_type识别错误**：TA侧无法精准区分`mix`类型（`MIX_AIC`/`MIX_AIV`）与纯`AIC`算子，所有`mix`算子均被误上报为`MSPROF_GE_TASK_TYPE_AI_CORE`，无法建立`mix`算子与`kernel`元信息的正确关联；\n\n2. **从核数据采集缺失**：缺乏主核/从核比例（`mix_block_dim_ratio`）上报，导致msprof工具无法识别从核数量，`mix`算子的从核性能数据（如`MIX_AIC`算子的`aiv_time`）始终为空，数据完整性不足。\n\n### 二、改动目标\n1. 根据bs上报的`bs_task_type` 精准识别`MIX_AIC`/`MIX_AIV`两种混合算子类型；\n2. 实现`mix_block_dim_ratio`上报，修复从核性能数据采集为空的问题；\n3. 保持纯AIV/纯AIC算子原有上报逻辑不变，当bs没有上报`bs_task_type`时，保持原有上报逻辑。\n\n### 三、编码规则\n#### bs_task_type编码规则表\n| 编码位 | 含义                          | 取值范围 | 对应说明                                |\n| --- | --------------------------- | ---- | ----------------------------------- |\n| 十位  | 基础`task_type`                | 1-4  | 1=`AIV`、2=`AI_CORE`、3=`MIX_AIC`、4=`MIX_AIV` |\n| 个位  | `mix_block_dim_ratio`（主/从核比例） | 0-2  | 仅mix类型算子有效，纯算子场景默认0                 |\n#### 核数比例映射规则表（以block_dim=10为例）\n| 算子类型                 | mix_block_dim_ratio | 主核规格   | 从核规格   |\n| -------------------- | ------------------- | ------ | ------ |\n| `MIX_AIC`（主核`AIC`，从核`AIV`） | 0                   | `AIC`:10 | `AIV`:0  |\n|                      | 1                   | `AIC`:10 | `AIV`:10 |\n|                      | 2                   | `AIC`:10 | `AIV`:20 |\n| `MIX_AIV`（主核`AIV`，从核`AIC`） | 0                   | `AIV`:10 | `AIC`:0  |\n|                      | 1                   | `AIV`:10 | `AIC`:10 |\n\n### 四、具体改动方案\n1. **新增回调函数与变量映射**：编译器新增回调函数`xx__infer_task_type_function`，引入TA侧变量`bs_task_type`，根据编码规则获取` task_type` 和 `mix_block_dim_ratio`\n2. **mix算子ctxID上报**：基于`bs_task_type`识别出mix类型算子时，判断是否是mix算子，mix算子则上报`ctxID`；纯`AIC`/`AIV`算子保持原有逻辑。\n3. **新增nodeBasicBlockDim字段**：解析`bs_task_type`中的mix_block_dim_ratio，将`nodeBasicBlockDim`更新为 `(mixBlockNumRation << 16) + blockNum`：\n   - 低16位：保留原`blockNum`（实际运行的主核数量）；\n   - 高16位：存储`mix_block_dim_ratio`（从核数量比例）。\n4. **回退机制**\n\t- 当没有获取`xx__infer_task_type_function`时，`task_type` 回退回原来规则(如果mix_mode='aiv' 则设置为`AIV`，否则设置为`AI_CORE`)，对应`mix_block_dim_ratio`默认为0\n\n### 五、核心流程图\n```mermaid\ngraph TD  \n    A[\"性能采集上报触发\"] --> B{\"是否获取到 xx__infer_task_type_function 回调\"}  \n    B -- 是 --> C[\"解析为TA侧bs_task_type变量\"]  \n    C --> D{\"根据十位编码判断task_type\"}  \n    D -- 纯AIV(1) --> E[\"保持原有逻辑，不上报ctxID\"]  \n    D -- 纯AIC(2) --> E  \n    D -- MIX_AIC(3)/MIX_AIV(4) --> F[\"补充上报 ctxID，用于关联subtask的kernel元信息\"]  \n    F --> G[\"解析个位编码获取mix_block_dim_ratio\"]  \n    G --> H[\"重构nodeBasicBlockDim：(ratio << 16) + blockNum\"]  \n    B -- 否 --> I[\"执行回退机制\"]  \n    I --> J{\"mix_mode是否为'aiv'\"}  \n    J -- 是 --> K[\"task_type设为AIV，ratio默认为0\"]  \n    J -- 否 --> L[\"task_type设为AI_CORE，ratio默认为0\"]  \n    E --> M[\"上报性能数据的nodeBasicInfo（或 ctxID）\"]  \n    H --> M  \n    K --> M  \n    L --> M\n```\n\n### 相关资料\n1. 关联PR：https://gitcode.com/Ascend/triton-ascend/pull/936\n2. 文档参考：https://www.hiascend.com/document/detail/zh/canncommercial/83RC1/API/ascendcopapi/atlasascendc_api_07_0218.html\n\n## checklist\n<!--  [x] 表示选中 -->\n- [x] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [x] 是否进行空指针校验\n- [x] 是否进行返回值校验\n- [x] 是否正确释放new/malloc申请的内存\n- [x] 是否充分考虑接口的异常场景\n- [x] 是否正确记录错误日志",
-      "state": "open",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2025-12-26T20:47:02+08:00",
-      "updated_at": "2026-01-07T10:42:52+08:00",
+      "updated_at": "2026-01-08T14:25:44+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 5496187,
+        "name": "candyhong",
+        "username": "candyhong",
+        "iam_id": "665bc749425f400d926b8244f252b557",
+        "nick_name": "candyhong",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/candyhong"
+      },
+      "closed_at": "2026-01-08T14:25:43+08:00",
       "target_branch": "master",
       "source_branch": "fix-msprof",
       "source_project_id": 7669291,
@@ -18221,13 +19582,25 @@
       "project_id": 7623225,
       "title": "A set of general-purpose kernel performance comparison test methods designed for subsequent kernel testing.",
       "body": "## 概述\n\n目的: 提供一套通用的 Triton kernel 单测框架，统一加载 GPU dump 的 pt 测试用例，运行 NPU 上的 Triton kernel 并与 GPU上的Triton kernel或PyTorch算子 输出做精度比对，避免为每个 kernel 重复编写测试逻辑。当前方案支持sglang也按同样的方式新增测试kernel。\n## 背景\n\nvllm-ascend 有一批重写过的 kernel 算子，需要在 triton-ascend 中用 DT 验证这些算子的数值精度。原有做法为每个 kernel 写独立测试，导致大量重复的加载/比对代码，维护成本高、可扩展性差。\n本 PR 抽象出公共流程：发现 kernel、加载/下载对应 pt 文件、运行 NPU kernel、比较结果，从而简化新增 kernel 的测试工作。\n## 主要改动\n\nconftest.py: 新增 --kernel pytest 选项，可在命令行指定要执行的 kernel（未指定的将被跳过）。\ntest_common.py: 基于原有 compare/validate 工具，新增 run_and_compare_ptfile，支持单 case 与多 case（list）格式的 pt 文件，并封装执行与比对流程。\ntest_triton_kernel.py: 通用测试入口，自动发现 vllm 下的 kernel 文件，按本地或远端 pt 文件生成参数化用例并调用 run_and_compare_ptfile。\nascend/test/kernels/vllm/: 存放各 Triton kernel 的模块文件，test_triton_kernel 会自动以该目录下的文件为测试目标。\nascend/test/kernels/common/: 存放各 Triton kernel 公用的kernel算子。\n## 使用说明\n\n准备 pt 文件：在 GPU 环境生成 pt 文件，文件内需包含与 kernel 输入/输出一致的数据结构（支持单个 case 的 dict 或多个 case 的 list）。\n放置 kernel 文件：在 kernels/xxx 下新增与算子同名的 Python 文件，内容为Triton kernel函数。\n运行测试：在项目根目录运行\npython -m pytest -q -s ascend/test/common/test_triton_kernel.py\n指定单个 kernel：python -m pytest -q -rs ascend/test/common/test_triton_kernel.py --kernel=expand_kernel\npt 文件查找策略：优先使用仓库内匹配的本地 pt，若本地不存在则按需从远端 OBS 下载 {kernel_name}.pt文件。\n## 注意事项\n\n推荐 pt 文件采用「list of dicts」格式以支持多个用例（更直观可靠）；也可使用单个 dict。若需支持「第 0 维为 batch 的多例格式」，可在后续扩展。\n增加新 kernel 时无需再写测试用例，只需添加 kernel 模块并上传对应 pt 文件（本地或远端），测试框架会自动发现并执行。\n本地存放的pt文件可放到common文件夹下，与test_triton_kernel同目录\n本地已存在的pt文件，在执行完测试后不会删除，从obs桶取的文件在跑完测试后会被测试程序直接删除。\n\n## 测试\n全量算子测试：\n![image.png](https://raw.gitcode.com/user-images/assets/7623225/fad88e35-0b68-467b-ae05-0cfeaa5bc361/image.png 'image.png')\n特定算子测试：\n![image.png](https://raw.gitcode.com/user-images/assets/7623225/70999dbb-d480-4ef1-b8d5-c7512e86e9b8/image.png 'image.png')",
-      "state": "open",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2025-12-25T19:38:35+08:00",
-      "updated_at": "2026-01-05T14:18:41+08:00",
+      "updated_at": "2026-01-08T23:43:38+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 9143616,
+        "name": "zhudada",
+        "username": "zhudada",
+        "iam_id": "sl8tqYh8v36EmCUS8c89UtpNRHFyb8jd",
+        "nick_name": "zhudada0120",
+        "state": "active",
+        "avatar_url": "https://cdn-img.gitcode.com/bb/dd/993261b52945164212b945949d623d33f40984c1215fb6aff6c4b6c02d0aa6c3.png?time=1766481691918",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/zhudada"
+      },
+      "closed_at": "2026-01-08T23:43:38+08:00",
       "target_branch": "master",
       "source_branch": "vllm-dt-fix",
       "source_project_id": 8802578,
@@ -18294,7 +19667,7 @@
       "head": {
         "label": "master",
         "ref": "master",
-        "sha": "87d13cca6fe02c26d6ecb29cf07694f0b53da9c9",
+        "sha": "4b453cd732e8a316793fc441fca0f2bf38135b76",
         "user": {
           "id": "68f1f7b2c9b4ed70dd500165",
           "login": "wutianyao",
@@ -18392,7 +19765,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2025-12-25T15:24:26+08:00",
-      "updated_at": "2026-01-05T20:42:29+08:00",
+      "updated_at": "2026-01-09T09:38:42+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "master",
@@ -18401,14 +19774,14 @@
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/994",
       "merge_request_type": "MergeRequest",
-      "added_lines": 245,
-      "removed_lines": 29,
+      "added_lines": 248,
+      "removed_lines": 32,
       "diff_refs": {
-        "base_sha": "ec60f350645972b2583d56e356fa7408c60ae423",
-        "head_sha": "87d13cca6fe02c26d6ecb29cf07694f0b53da9c9",
-        "start_sha": "0d2c8ce3d4d7aedd10eb1719c819d354f6c79855"
+        "base_sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
+        "head_sha": "4b453cd732e8a316793fc441fca0f2bf38135b76",
+        "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
       },
-      "notes": 45,
+      "notes": 56,
       "source_git_url": "git@gitcode.com:wutianyao/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -19255,7 +20628,7 @@
       "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/988",
       "close_related_issue": 0,
       "prune_branch": false,
-      "draft": true,
+      "draft": false,
       "labels": [
         {
           "id": 1468,
@@ -19269,6 +20642,13 @@
           "color": "#2865E0",
           "name": "stat/needs-squash",
           "title": "stat/needs-squash",
+          "repository_id": 7623225
+        },
+        {
+          "id": 4168,
+          "color": "#DB2828",
+          "name": "ci-pipeline-failed",
+          "title": "ci-pipeline-failed",
           "repository_id": 7623225
         }
       ],
@@ -19288,7 +20668,7 @@
       "head": {
         "label": "custom_op",
         "ref": "custom_op",
-        "sha": "dbc7886b3dfcb9bedba10497e86b4b40a1c261d1",
+        "sha": "c614f172694f9646a0c8f80f1cda0bad686f829d",
         "user": {
           "id": "6938f1293ac3c0435ee3b637",
           "login": "szhewei",
@@ -19377,29 +20757,40 @@
       "id": 8180938,
       "iid": 988,
       "project_id": 7623225,
-      "title": "[WIP]feat(custom_op): implement custom op frontend",
-      "body": "## 描述\n实现定制化op前端，在ascend language扩展模块中提供al.custom内置函数，并在IR中转换为hivm::CustomOp；\n本PR依赖BiShengIR端提供的hivm::CustomOp定义，\n参见: https://gitcode.com/Ascend/AscendNPU-IR/pull/425\n否则编译不过。\n\n## checklist\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
-      "state": "open",
+      "title": "feat(custom_op): implement custom op frontend",
+      "body": "## 描述\n实现定制化op前端，在ascend language扩展模块中提供al.custom内置函数，并在IR中转换为hivm::CustomOp；\n本PR依赖BiShengIR端提供的hivm::CustomOp定义，见: https://gitcode.com/Ascend/AscendNPU-IR/pull/425\n\n## checklist\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [ ] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2025-12-24T15:45:48+08:00",
-      "updated_at": "2026-01-06T11:51:36+08:00",
+      "updated_at": "2026-01-09T10:47:40+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 9301174,
+        "name": "szhewei",
+        "username": "szhewei",
+        "iam_id": "krSjHkymarBnJWioz1y68WqmFDksBFPy",
+        "nick_name": "szhewei",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/szhewei"
+      },
+      "closed_at": "2026-01-09T10:47:40+08:00",
       "target_branch": "master",
       "source_branch": "custom_op",
       "source_project_id": 8680982,
       "force_remove_source_branch": false,
       "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/988",
       "merge_request_type": "MergeRequest",
-      "added_lines": 924,
-      "removed_lines": 13,
+      "added_lines": 927,
+      "removed_lines": 14,
       "diff_refs": {
         "base_sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
-        "head_sha": "dbc7886b3dfcb9bedba10497e86b4b40a1c261d1",
+        "head_sha": "c614f172694f9646a0c8f80f1cda0bad686f829d",
         "start_sha": "9319a71c74a630d7b2b47676557f29f529165a9c"
       },
-      "notes": 31,
+      "notes": 34,
       "source_git_url": "git@gitcode.com:szhewei/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -45963,7 +47354,6 @@
         "start_sha": "37dec7b52f7ba52ebc2dd1d5bd940ae124c2ad02"
       },
       "notes": 44,
-      "source_git_url": "git@gitcode.com:zhaojingkai/triton-ascend_8083144_deleted.git",
       "can_merge_check": false,
       "mergeable": true,
       "locked": false
@@ -56513,697 +57903,6 @@
       "source_git_url": "git@gitcode.com:wen_xiang_zou_admin/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": false,
-      "locked": false
-    },
-    {
-      "number": 771,
-      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/771",
-      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/771",
-      "close_related_issue": 0,
-      "prune_branch": false,
-      "draft": false,
-      "labels": [
-        {
-          "id": 1468,
-          "color": "#29e047",
-          "name": "ascend-cla/yes",
-          "title": "ascend-cla/yes",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4165,
-          "color": "#21BA45",
-          "name": "approved",
-          "title": "approved",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4206,
-          "color": "#21BA45",
-          "name": "lgtm",
-          "title": "lgtm",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4169,
-          "color": "#20c22e",
-          "name": "ci-pipeline-passed",
-          "title": "ci-pipeline-passed",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4163,
-          "color": "#20c22e",
-          "name": "SC-SUCC",
-          "title": "SC-SUCC",
-          "repository_id": 7623225
-        }
-      ],
-      "user": {
-        "id": "682351a1053cff786c915b32",
-        "user_id": "5594313",
-        "object_id": "682351a1053cff786c915b32",
-        "login": "saruagithub",
-        "name": "saruagithub",
-        "state": "active",
-        "email": "",
-        "name_cn": "",
-        "html_url": "https://gitcode.com/saruagithub"
-      },
-      "assignees": [],
-      "testers": [],
-      "head": {
-        "label": "dot_op_para",
-        "ref": "dot_op_para",
-        "sha": "704d7316217c24d64336fce796ad3e3fcb80ef2d",
-        "user": {
-          "id": "682351a1053cff786c915b32",
-          "login": "saruagithub",
-          "name": "saruagithub",
-          "state": "active",
-          "email": "wangxue125@huawei.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/saruagithub"
-        },
-        "repo": {
-          "id": 7695057,
-          "full_path": "saruagithub/triton-ascend",
-          "full_name": "saruagithub/triton-ascend",
-          "human_name": "saruagithub / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "682351a1053cff786c915b32",
-            "login": "saruagithub",
-            "name": "saruagithub",
-            "state": "active",
-            "email": "wangxue125@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/saruagithub"
-          },
-          "assigner": {
-            "id": "682351a1053cff786c915b32",
-            "login": "saruagithub",
-            "name": "saruagithub",
-            "state": "active",
-            "email": "wangxue125@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/saruagithub"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/saruagithub/triton-ascend.git"
-        }
-      },
-      "base": {
-        "label": "master",
-        "ref": "master",
-        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
-        "user": {
-          "id": "650d67fbae6d795139b49b41",
-          "login": "dengmengmian",
-          "name": "麻凡",
-          "state": "active",
-          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-          "email": "my@dengmengmian.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/dengmengmian"
-        },
-        "repo": {
-          "id": 7623225,
-          "full_path": "Ascend/triton-ascend",
-          "full_name": "Ascend/triton-ascend",
-          "human_name": "Ascend / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "assigner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
-        }
-      },
-      "id": 7451185,
-      "iid": 771,
-      "project_id": 7623225,
-      "title": "feat(op): only TA support dot parameter max_num_imprecise_acc",
-      "body": "## 描述\ntriton允许传入max_num_imprecise_acc，指定多少次低精度的累加数（当前昇腾不支持低精度累加）, 但底层不生效\n",
-      "state": "merged",
-      "assignees_number": 0,
-      "testers_number": 0,
-      "created_at": "2025-11-17T21:38:32+08:00",
-      "updated_at": "2025-11-18T16:52:21+08:00",
-      "merged_at": "2025-11-18T16:52:21+08:00",
-      "closed_at": "2025-11-18T16:52:21+08:00",
-      "target_branch": "master",
-      "source_branch": "dot_op_para",
-      "source_project_id": 7695057,
-      "force_remove_source_branch": false,
-      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/771",
-      "merge_request_type": "MergeRequest",
-      "added_lines": 1,
-      "removed_lines": 1,
-      "diff_refs": {
-        "base_sha": "1313cb21062e3163e1cd57039077edc9d9d66015",
-        "head_sha": "704d7316217c24d64336fce796ad3e3fcb80ef2d",
-        "start_sha": "96a0e7492818b02081ebe1d5eeb34a92f765a170"
-      },
-      "notes": 21,
-      "source_git_url": "git@gitcode.com:saruagithub/triton-ascend.git",
-      "can_merge_check": true,
-      "mergeable": true,
-      "locked": false
-    },
-    {
-      "number": 770,
-      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/770",
-      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/770",
-      "close_related_issue": 0,
-      "prune_branch": false,
-      "draft": false,
-      "labels": [
-        {
-          "id": 1594,
-          "color": "#2865E0",
-          "name": "stat/needs-squash",
-          "title": "stat/needs-squash",
-          "repository_id": 7623225
-        },
-        {
-          "id": 1468,
-          "color": "#29e047",
-          "name": "ascend-cla/yes",
-          "title": "ascend-cla/yes",
-          "repository_id": 7623225
-        }
-      ],
-      "user": {
-        "id": "682552d859bdd61f837eaec9",
-        "user_id": "5616008",
-        "object_id": "682552d859bdd61f837eaec9",
-        "login": "cxtjjcz",
-        "name": "chenxiangting",
-        "state": "active",
-        "avatar_url": "https://cdn-img.gitcode.com/cc/bc/3c59394c4236733b1c7f0fd7e1ffcb2bb72349c6be239ec37a66dd95376ba879.png?time=1758361231744",
-        "email": "",
-        "name_cn": "",
-        "html_url": "https://gitcode.com/cxtjjcz"
-      },
-      "assignees": [],
-      "testers": [],
-      "head": {
-        "label": "feat-buffer-lang",
-        "ref": "feat-buffer-lang",
-        "sha": "eae4dff6d639127e04c1d95b71a6db9e142e5183",
-        "user": {
-          "id": "682552d859bdd61f837eaec9",
-          "login": "cxtjjcz",
-          "name": "chenxiangting",
-          "state": "active",
-          "avatar_url": "https://cdn-img.gitcode.com/cc/bc/3c59394c4236733b1c7f0fd7e1ffcb2bb72349c6be239ec37a66dd95376ba879.png?time=1758361231744",
-          "email": "chenxiangting@huawei.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/cxtjjcz"
-        },
-        "repo": {
-          "id": 8129978,
-          "full_path": "cxtjjcz/triton-ascend",
-          "full_name": "cxtjjcz/triton-ascend",
-          "human_name": "cxtjjcz / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "682552d859bdd61f837eaec9",
-            "login": "cxtjjcz",
-            "name": "chenxiangting",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/cc/bc/3c59394c4236733b1c7f0fd7e1ffcb2bb72349c6be239ec37a66dd95376ba879.png?time=1758361231744",
-            "email": "chenxiangting@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/cxtjjcz"
-          },
-          "assigner": {
-            "id": "682552d859bdd61f837eaec9",
-            "login": "cxtjjcz",
-            "name": "chenxiangting",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/cc/bc/3c59394c4236733b1c7f0fd7e1ffcb2bb72349c6be239ec37a66dd95376ba879.png?time=1758361231744",
-            "email": "chenxiangting@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/cxtjjcz"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/cxtjjcz/triton-ascend.git"
-        }
-      },
-      "base": {
-        "label": "master",
-        "ref": "master",
-        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
-        "user": {
-          "id": "650d67fbae6d795139b49b41",
-          "login": "dengmengmian",
-          "name": "麻凡",
-          "state": "active",
-          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-          "email": "my@dengmengmian.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/dengmengmian"
-        },
-        "repo": {
-          "id": 7623225,
-          "full_path": "Ascend/triton-ascend",
-          "full_name": "Ascend/triton-ascend",
-          "human_name": "Ascend / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "assigner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
-        }
-      },
-      "id": 7450965,
-      "iid": 770,
-      "project_id": 7623225,
-      "title": "feat(triton): introduce buffer language extension",
-      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n- introduced `triton.extension.buffer.language` to directly manipulate buffer in triton kernel\n- modified `CodeGenerator` to create a builder for buffer language and use `__buffer_builtin__` attribute to switch between builders\n\n## checklist\n<!--  [x] 表示选中 -->\n- [x] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [ ] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [ ] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
-      "state": "open",
-      "assignees_number": 0,
-      "testers_number": 0,
-      "created_at": "2025-11-17T20:22:24+08:00",
-      "updated_at": "2026-01-04T16:30:56+08:00",
-      "merged_at": "",
-      "closed_at": "",
-      "target_branch": "master",
-      "source_branch": "feat-buffer-lang",
-      "source_project_id": 8129978,
-      "force_remove_source_branch": false,
-      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/770",
-      "merge_request_type": "MergeRequest",
-      "added_lines": 961,
-      "removed_lines": 343,
-      "diff_refs": {
-        "base_sha": "8292aff2bf6833fae9af1300263961268020cde3",
-        "head_sha": "eae4dff6d639127e04c1d95b71a6db9e142e5183",
-        "start_sha": "a81769575715d49fb3d9cd0cc2e68a0b834b45bd"
-      },
-      "notes": 22,
-      "source_git_url": "git@gitcode.com:cxtjjcz/triton-ascend.git",
-      "can_merge_check": false,
-      "mergeable": false,
-      "locked": false
-    },
-    {
-      "number": 769,
-      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/769",
-      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/769",
-      "close_related_issue": 0,
-      "prune_branch": false,
-      "draft": false,
-      "labels": [
-        {
-          "id": 4165,
-          "color": "#21BA45",
-          "name": "approved",
-          "title": "approved",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4206,
-          "color": "#21BA45",
-          "name": "lgtm",
-          "title": "lgtm",
-          "repository_id": 7623225
-        },
-        {
-          "id": 1468,
-          "color": "#29e047",
-          "name": "ascend-cla/yes",
-          "title": "ascend-cla/yes",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4169,
-          "color": "#20c22e",
-          "name": "ci-pipeline-passed",
-          "title": "ci-pipeline-passed",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4163,
-          "color": "#20c22e",
-          "name": "SC-SUCC",
-          "title": "SC-SUCC",
-          "repository_id": 7623225
-        }
-      ],
-      "user": {
-        "id": "69099aaa5fa6f655267e606b",
-        "user_id": "7795779",
-        "object_id": "69099aaa5fa6f655267e606b",
-        "login": "LH_123L",
-        "name": "LiuHuan",
-        "state": "active",
-        "email": "",
-        "name_cn": "",
-        "html_url": "https://gitcode.com/LH_123L"
-      },
-      "assignees": [],
-      "testers": [],
-      "head": {
-        "label": "op_f8_support",
-        "ref": "op_f8_support",
-        "sha": "f0a7681e58d333a2ffcb0e33fcda824588c0756b",
-        "user": {
-          "id": "69099aaa5fa6f655267e606b",
-          "login": "LH_123L",
-          "name": "LiuHuan",
-          "state": "active",
-          "email": "liuhuan261@huawei.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/LH_123L"
-        },
-        "repo": {
-          "id": 8188587,
-          "full_path": "LH_123L/triton-ascend",
-          "full_name": "LH_123L/triton-ascend",
-          "human_name": "LH_123L / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "69099aaa5fa6f655267e606b",
-            "login": "LH_123L",
-            "name": "LiuHuan",
-            "state": "active",
-            "email": "liuhuan261@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/LH_123L"
-          },
-          "assigner": {
-            "id": "69099aaa5fa6f655267e606b",
-            "login": "LH_123L",
-            "name": "LiuHuan",
-            "state": "active",
-            "email": "liuhuan261@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/LH_123L"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/LH_123L/triton-ascend.git"
-        }
-      },
-      "base": {
-        "label": "master",
-        "ref": "master",
-        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
-        "user": {
-          "id": "650d67fbae6d795139b49b41",
-          "login": "dengmengmian",
-          "name": "麻凡",
-          "state": "active",
-          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-          "email": "my@dengmengmian.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/dengmengmian"
-        },
-        "repo": {
-          "id": 7623225,
-          "full_path": "Ascend/triton-ascend",
-          "full_name": "Ascend/triton-ascend",
-          "human_name": "Ascend / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "assigner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
-        }
-      },
-      "id": 7450555,
-      "iid": 769,
-      "project_id": 7623225,
-      "title": "fix(op):triton A5 allow f8(float8_e4m3fn,float8_e5m2)",
-      "body": "## 描述\n<!--在这里详细描述你的改动，包括改动的原因和所采取的方法。-->\n\n## checklist\n<!--  [x] 表示选中 -->\n- [ ] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [ ] 是否进行空指针校验\n- [x] 是否进行返回值校验\n- [ ] 是否正确释放new/malloc申请的内存\n- [x] 是否充分考虑接口的异常场景\n- [ ] 是否正确记录错误日志",
-      "state": "merged",
-      "assignees_number": 0,
-      "testers_number": 0,
-      "created_at": "2025-11-17T18:01:53+08:00",
-      "updated_at": "2025-11-17T19:18:55+08:00",
-      "merged_at": "2025-11-17T19:18:42+08:00",
-      "closed_at": "2025-11-17T19:18:42+08:00",
-      "target_branch": "master",
-      "source_branch": "op_f8_support",
-      "source_project_id": 8188587,
-      "force_remove_source_branch": false,
-      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/769",
-      "merge_request_type": "MergeRequest",
-      "added_lines": 2202,
-      "removed_lines": 9,
-      "diff_refs": {
-        "base_sha": "1884b996d6f053c94c9c4761a92d3876e35da8b0",
-        "head_sha": "f0a7681e58d333a2ffcb0e33fcda824588c0756b",
-        "start_sha": "fb8293c24b1bacb56544d09f4d245e05c889ebe1"
-      },
-      "notes": 13,
-      "source_git_url": "git@gitcode.com:LH_123L/triton-ascend.git",
-      "can_merge_check": true,
-      "mergeable": true,
-      "locked": false
-    },
-    {
-      "number": 768,
-      "html_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/768",
-      "url": "https://gitcode.com/api/v5/repos/Ascend/triton-ascend/pulls/768",
-      "close_related_issue": 0,
-      "prune_branch": false,
-      "draft": false,
-      "labels": [
-        {
-          "id": 4169,
-          "color": "#20c22e",
-          "name": "ci-pipeline-passed",
-          "title": "ci-pipeline-passed",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4165,
-          "color": "#21BA45",
-          "name": "approved",
-          "title": "approved",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4206,
-          "color": "#21BA45",
-          "name": "lgtm",
-          "title": "lgtm",
-          "repository_id": 7623225
-        },
-        {
-          "id": 1468,
-          "color": "#29e047",
-          "name": "ascend-cla/yes",
-          "title": "ascend-cla/yes",
-          "repository_id": 7623225
-        },
-        {
-          "id": 4163,
-          "color": "#20c22e",
-          "name": "SC-SUCC",
-          "title": "SC-SUCC",
-          "repository_id": 7623225
-        }
-      ],
-      "user": {
-        "id": "682351a62f11da2d75c9abd6",
-        "user_id": "5594316",
-        "object_id": "682351a62f11da2d75c9abd6",
-        "login": "zhucehw",
-        "name": "zhucehw",
-        "state": "active",
-        "email": "",
-        "name_cn": "",
-        "html_url": "https://gitcode.com/zhucehw"
-      },
-      "assignees": [],
-      "testers": [],
-      "head": {
-        "label": "precompile",
-        "ref": "precompile",
-        "sha": "940c2b74c7575c4b636f9397f0c337872d052814",
-        "user": {
-          "id": "682351a62f11da2d75c9abd6",
-          "login": "zhucehw",
-          "name": "zhucehw",
-          "state": "active",
-          "email": "zhuce@huawei.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/zhucehw"
-        },
-        "repo": {
-          "id": 8100724,
-          "full_path": "zhucehw/triton-ascend",
-          "full_name": "zhucehw/triton-ascend",
-          "human_name": "zhucehw / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "682351a62f11da2d75c9abd6",
-            "login": "zhucehw",
-            "name": "zhucehw",
-            "state": "active",
-            "email": "zhuce@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/zhucehw"
-          },
-          "assigner": {
-            "id": "682351a62f11da2d75c9abd6",
-            "login": "zhucehw",
-            "name": "zhucehw",
-            "state": "active",
-            "email": "zhuce@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/zhucehw"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/zhucehw/triton-ascend.git"
-        }
-      },
-      "base": {
-        "label": "master",
-        "ref": "master",
-        "sha": "9319a71c74a630d7b2b47676557f29f529165a9c",
-        "user": {
-          "id": "650d67fbae6d795139b49b41",
-          "login": "dengmengmian",
-          "name": "麻凡",
-          "state": "active",
-          "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-          "email": "my@dengmengmian.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/dengmengmian"
-        },
-        "repo": {
-          "id": 7623225,
-          "full_path": "Ascend/triton-ascend",
-          "full_name": "Ascend/triton-ascend",
-          "human_name": "Ascend / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "assigner": {
-            "id": "650d67fbae6d795139b49b41",
-            "login": "dengmengmian",
-            "name": "麻凡",
-            "state": "active",
-            "avatar_url": "https://cdn-img.gitcode.com/ec/fb/430ecf07b9ee91bbbbf341d92a36783d06e69086f82ce8cf5a6406f79f1c9cf4.png",
-            "email": "my@dengmengmian.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/dengmengmian"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/Ascend/triton-ascend.git"
-        }
-      },
-      "id": 7450448,
-      "iid": 768,
-      "project_id": 7623225,
-      "title": "fix(compile) add fallback when precompile file invalid",
-      "body": "## 描述\n当预编译失效时，fallback至原有编译模式\n\n## checklist\n<!--  [x] 表示选中 -->\n- [x] 是否通过本地IDE对代码进行静态检查\n- [x] 是否通过本地IDE对代码进行格式化处理\n- [x] 是否进行空指针校验\n- [x] 是否进行返回值校验\n- [x] 是否正确释放new/malloc申请的内存\n- [x] 是否充分考虑接口的异常场景\n- [x] 是否正确记录错误日志",
-      "state": "merged",
-      "assignees_number": 0,
-      "testers_number": 0,
-      "created_at": "2025-11-17T17:28:19+08:00",
-      "updated_at": "2025-11-18T09:37:18+08:00",
-      "merged_at": "2025-11-18T09:37:18+08:00",
-      "closed_at": "2025-11-18T09:37:18+08:00",
-      "target_branch": "master",
-      "source_branch": "precompile",
-      "source_project_id": 8100724,
-      "force_remove_source_branch": false,
-      "web_url": "https://gitcode.com/Ascend/triton-ascend/merge_requests/768",
-      "merge_request_type": "MergeRequest",
-      "added_lines": 20,
-      "removed_lines": 25,
-      "diff_refs": {
-        "base_sha": "db2c99a2048f106680066647fa55e11d3f3b0d3c",
-        "head_sha": "940c2b74c7575c4b636f9397f0c337872d052814",
-        "start_sha": "db2c99a2048f106680066647fa55e11d3f3b0d3c"
-      },
-      "notes": 30,
-      "source_git_url": "git@gitcode.com:zhucehw/triton-ascend.git",
-      "can_merge_check": true,
-      "mergeable": true,
       "locked": false
     }
   ]
