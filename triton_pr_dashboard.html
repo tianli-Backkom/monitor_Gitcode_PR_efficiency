@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">78</div>
+                <div class="stat-value open-prs">77</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">49</div>
+                <div class="stat-value submitted-prs">46</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">15</div>
+                <div class="stat-value merged-prs">14</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">13</div>
-                <div class="stat-unit">个PR失败 (失败率26.5%)</div>
+                <div class="stat-value failed-prs">8</div>
+                <div class="stat-unit">个PR失败 (失败率17.4%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
                 <div class="stat-value avg-duration">1.1</div>
-                <div class="stat-unit">天 (25.7小时)</div>
+                <div class="stat-unit">天 (27.6小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 82 个PR，失败: 13 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 80 个PR，失败: 8 个
             </div>
         </div>
         
@@ -409,24 +409,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1036</span>
-                <span class="duration-badge">0.0天</span>
-            </div>
-            <div class="pr-title">fix(ci): upload_pypi add retry</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-04</span>
-                <span>合入: 2026-01-04</span>
-                <span>耗时: 0.2小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-01-11 03:07:15</p>
+            <p>数据更新时间: 2026-01-12 03:04:46</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -452,7 +439,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["12-29", "12-30", "12-31", "01-01", "01-02", "01-03", "01-04", "01-05", "01-06", "01-07", "01-08", "01-09", "01-10", "01-11"], "total_values": [7, 12, 11, 0, 1, 0, 5, 12, 6, 11, 4, 10, 3, 0], "failed_values": [0, 0, 0, 0, 0, 0, 0, 0, 1, 5, 0, 5, 2, 0]};
+            const chartData = {"labels": ["12-30", "12-31", "01-01", "01-02", "01-03", "01-04", "01-05", "01-06", "01-07", "01-08", "01-09", "01-10", "01-11", "01-12"], "total_values": [12, 11, 0, 1, 0, 5, 12, 6, 11, 4, 10, 3, 0, 1], "failed_values": [0, 0, 0, 0, 0, 0, 0, 1, 5, 0, 2, 0, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
