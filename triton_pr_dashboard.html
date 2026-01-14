@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">75</div>
+                <div class="stat-value open-prs">65</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">44</div>
+                <div class="stat-value submitted-prs">43</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">15</div>
+                <div class="stat-value merged-prs">20</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">13</div>
-                <div class="stat-unit">个PR失败 (失败率29.5%)</div>
+                <div class="stat-value failed-prs">7</div>
+                <div class="stat-unit">个PR失败 (失败率16.3%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.5</div>
-                <div class="stat-unit">天 (36.0小时)</div>
+                <div class="stat-value avg-duration">2.4</div>
+                <div class="stat-unit">天 (57.8小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 86 个PR，失败: 13 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 74 个PR，失败: 7 个
             </div>
         </div>
         
@@ -227,6 +227,32 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1096</span>
+                <span class="duration-badge">0.1天</span>
+            </div>
+            <div class="pr-title">bugfix(view): set can_reorder false in view op</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-13</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 1.5小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1092</span>
+                <span class="duration-badge">0.9天</span>
+            </div>
+            <div class="pr-title">Mask-based overfetch prevention in triton-to-unstructure</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-12</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 22.5小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1091</span>
@@ -237,6 +263,32 @@
                 <span>创建: 2026-01-12</span>
                 <span>合入: 2026-01-13</span>
                 <span>耗时: 15.2小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1090</span>
+                <span class="duration-badge">0.9天</span>
+            </div>
+            <div class="pr-title">bugfix(runtime/utils): add lazy-init impl for multiprocessing</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-12</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 20.8小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1087</span>
+                <span class="duration-badge">1.1天</span>
+            </div>
+            <div class="pr-title">feat(backend): add NPUOption bisheng_options</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-12</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 26.3小时</span>
             </div>
         </div>
         
@@ -263,6 +315,32 @@
                 <span>创建: 2026-01-12</span>
                 <span>合入: 2026-01-12</span>
                 <span>耗时: 6.9小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1081</span>
+                <span class="duration-badge">4.2天</span>
+            </div>
+            <div class="pr-title">feat(buffer extension): add subview</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-09</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 100.0小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1079</span>
+                <span class="duration-badge">4.2天</span>
+            </div>
+            <div class="pr-title">feat(triton_ascend): support sync_block_set/wait</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-09</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 101.5小时</span>
             </div>
         </div>
         
@@ -333,6 +411,19 @@
         
         <div class="pr-item">
             <div class="pr-header">
+                <span class="pr-number">#1073</span>
+                <span class="duration-badge">3.8天</span>
+            </div>
+            <div class="pr-title">feat(triton_ascend): support hivm.disable_auto_sync for scope</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-09</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 91.2小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
                 <span class="pr-number">#1069</span>
                 <span class="duration-badge">0.1天</span>
             </div>
@@ -359,6 +450,32 @@
         
         <div class="pr-item">
             <div class="pr-header">
+                <span class="pr-number">#1065</span>
+                <span class="duration-badge">6.6天</span>
+            </div>
+            <div class="pr-title">feat(triton_ascend): support fixpipe</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-07</span>
+                <span>合入: 2026-01-14</span>
+                <span>耗时: 157.7小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1060</span>
+                <span class="duration-badge">6.2天</span>
+            </div>
+            <div class="pr-title">feat: add disable auto block sync option for kernel launch</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-07</span>
+                <span>合入: 2026-01-13</span>
+                <span>耗时: 147.9小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
                 <span class="pr-number">#1059</span>
                 <span class="duration-badge">5.0天</span>
             </div>
@@ -370,63 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1057</span>
-                <span class="duration-badge">0.4天</span>
-            </div>
-            <div class="pr-title">fix(msprof): update task_type and mix_block_dim_ratio from bs_task_type</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-07</span>
-                <span>合入: 2026-01-07</span>
-                <span>耗时: 8.8小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1055</span>
-                <span class="duration-badge">1.0天</span>
-            </div>
-            <div class="pr-title">Optimize performance of the tritonToStructured pass</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-06</span>
-                <span>合入: 2026-01-07</span>
-                <span>耗时: 24.9小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1053</span>
-                <span class="duration-badge">0.8天</span>
-            </div>
-            <div class="pr-title">feat(ci):A set of general-purpose kernel performance comparison test methods des...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-06</span>
-                <span>合入: 2026-01-07</span>
-                <span>耗时: 19.2小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1052</span>
-                <span class="duration-badge">0.0天</span>
-            </div>
-            <div class="pr-title">fix(package):fix upload-pypi bug</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-06</span>
-                <span>合入: 2026-01-06</span>
-                <span>耗时: 0.6小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-01-13 02:55:16</p>
+            <p>数据更新时间: 2026-01-14 03:03:03</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -452,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["12-31", "01-01", "01-02", "01-03", "01-04", "01-05", "01-06", "01-07", "01-08", "01-09", "01-10", "01-11", "01-12", "01-13"], "total_values": [11, 0, 1, 0, 5, 12, 6, 11, 4, 10, 3, 0, 11, 0], "failed_values": [0, 0, 0, 0, 0, 0, 1, 5, 0, 0, 2, 0, 5, 0]};
+            const chartData = {"labels": ["01-01", "01-02", "01-03", "01-04", "01-05", "01-06", "01-07", "01-08", "01-09", "01-10", "01-11", "01-12", "01-13", "01-14"], "total_values": [0, 1, 0, 5, 12, 6, 11, 4, 10, 3, 0, 11, 5, 0], "failed_values": [0, 0, 0, 0, 0, 0, 3, 0, 0, 1, 0, 3, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
