@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">63</div>
+                <div class="stat-value open-prs">62</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">38</div>
+                <div class="stat-value submitted-prs">40</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">21</div>
+                <div class="stat-value merged-prs">24</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">9</div>
-                <div class="stat-unit">个PR失败 (失败率23.7%)</div>
+                <div class="stat-value failed-prs">7</div>
+                <div class="stat-unit">个PR失败 (失败率17.5%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.6</div>
-                <div class="stat-unit">天 (38.2小时)</div>
+                <div class="stat-value avg-duration">2.0</div>
+                <div class="stat-unit">天 (48.2小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 73 个PR，失败: 9 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 79 个PR，失败: 7 个
             </div>
         </div>
         
@@ -227,6 +227,19 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1107</span>
+                <span class="duration-badge">0.6天</span>
+            </div>
+            <div class="pr-title">fix: fix the print messege output</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-15</span>
+                <span>合入: 2026-01-16</span>
+                <span>耗时: 13.6小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1105</span>
@@ -255,6 +268,19 @@
         
         <div class="pr-item">
             <div class="pr-header">
+                <span class="pr-number">#1102</span>
+                <span class="duration-badge">1.9天</span>
+            </div>
+            <div class="pr-title">feat(triton extension): Add SyncBlock AllSubVector Support</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-14</span>
+                <span>合入: 2026-01-16</span>
+                <span>耗时: 45.5小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
                 <span class="pr-number">#1097</span>
                 <span class="duration-badge">0.7天</span>
             </div>
@@ -276,6 +302,19 @@
                 <span>创建: 2026-01-13</span>
                 <span>合入: 2026-01-13</span>
                 <span>耗时: 1.5小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1094</span>
+                <span class="duration-badge">3.0天</span>
+            </div>
+            <div class="pr-title">fix: low-dimensional axes parsing bugfix when partin low-dimensional axis comput...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-12</span>
+                <span>合入: 2026-01-15</span>
+                <span>耗时: 72.9小时</span>
             </div>
         </div>
         
@@ -372,6 +411,32 @@
         
         <div class="pr-item">
             <div class="pr-header">
+                <span class="pr-number">#1084</span>
+                <span class="duration-badge">5.8天</span>
+            </div>
+            <div class="pr-title">feat(custom_op): implement custom op front-end</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-10</span>
+                <span>合入: 2026-01-16</span>
+                <span>耗时: 138.9小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1082</span>
+                <span class="duration-badge">4.9天</span>
+            </div>
+            <div class="pr-title">feat(triton_ascend): move tl.sync_block_all to al.sync_block_all</div>
+            <div class="pr-meta">
+                <span>创建: 2026-01-10</span>
+                <span>合入: 2026-01-15</span>
+                <span>耗时: 116.7小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
                 <span class="pr-number">#1081</span>
                 <span class="duration-badge">4.2天</span>
             </div>
@@ -422,76 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1076</span>
-                <span class="duration-badge">2.8天</span>
-            </div>
-            <div class="pr-title">feat(triton): add to_buffer</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-09</span>
-                <span>合入: 2026-01-12</span>
-                <span>耗时: 66.0小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1075</span>
-                <span class="duration-badge">1.0天</span>
-            </div>
-            <div class="pr-title">feat(triton extension): Add to_tensor api to buffer language module</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-09</span>
-                <span>合入: 2026-01-10</span>
-                <span>耗时: 24.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1074</span>
-                <span class="duration-badge">3.0天</span>
-            </div>
-            <div class="pr-title">feat(docs): migrate documents from master branch</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-09</span>
-                <span>合入: 2026-01-12</span>
-                <span>耗时: 72.0小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1073</span>
-                <span class="duration-badge">3.8天</span>
-            </div>
-            <div class="pr-title">feat(triton_ascend): support hivm.disable_auto_sync for scope</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-09</span>
-                <span>合入: 2026-01-13</span>
-                <span>耗时: 91.2小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1069</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">fix(load): use correct default padding value based on data type in load operatio...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-08</span>
-                <span>合入: 2026-01-08</span>
-                <span>耗时: 1.9小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-01-15 02:57:04</p>
+            <p>数据更新时间: 2026-01-16 02:58:24</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["01-02", "01-03", "01-04", "01-05", "01-06", "01-07", "01-08", "01-09", "01-10", "01-11", "01-12", "01-13", "01-14", "01-15"], "total_values": [1, 0, 5, 12, 6, 11, 4, 10, 3, 0, 11, 5, 5, 0], "failed_values": [0, 0, 0, 0, 0, 3, 0, 0, 2, 0, 3, 1, 0, 0]};
+            const chartData = {"labels": ["01-03", "01-04", "01-05", "01-06", "01-07", "01-08", "01-09", "01-10", "01-11", "01-12", "01-13", "01-14", "01-15", "01-16"], "total_values": [0, 5, 12, 6, 11, 4, 10, 3, 0, 11, 5, 5, 2, 4], "failed_values": [0, 0, 0, 0, 2, 0, 0, 1, 0, 3, 1, 0, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
