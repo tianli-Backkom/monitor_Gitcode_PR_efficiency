@@ -182,13 +182,13 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">70</div>
+                <div class="stat-value open-prs">67</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">43</div>
+                <div class="stat-value submitted-prs">41</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
@@ -200,14 +200,14 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">22</div>
-                <div class="stat-unit">个PR失败 (失败率51.2%)</div>
+                <div class="stat-value failed-prs">19</div>
+                <div class="stat-unit">个PR失败 (失败率46.3%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
                 <div class="stat-value avg-duration">0.8</div>
-                <div class="stat-unit">天 (19.4小时)</div>
+                <div class="stat-unit">天 (18.5小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 92 个PR，失败: 22 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 87 个PR，失败: 19 个
             </div>
         </div>
         
@@ -227,6 +227,58 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1248</span>
+                <span class="duration-badge">0.6天</span>
+            </div>
+            <div class="pr-title">fix(interleaveOptimization): check if op's user is empty before erase it</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-05</span>
+                <span>合入: 2026-02-06</span>
+                <span>耗时: 14.9小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1247</span>
+                <span class="duration-badge">0.4天</span>
+            </div>
+            <div class="pr-title">feat(autotune): Add support for parse axis dim from maskA & maskB</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-05</span>
+                <span>合入: 2026-02-05</span>
+                <span>耗时: 8.7小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1246</span>
+                <span class="duration-badge">0.5天</span>
+            </div>
+            <div class="pr-title">This change adds English version of the documentation</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-05</span>
+                <span>合入: 2026-02-05</span>
+                <span>耗时: 11.7小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1244</span>
+                <span class="duration-badge">1.5天</span>
+            </div>
+            <div class="pr-title">fix(docs): Improve install-deploy-readme jump configuration, add Docker paramete...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-04</span>
+                <span>合入: 2026-02-06</span>
+                <span>耗时: 36.7小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1243</span>
@@ -237,6 +289,32 @@
                 <span>创建: 2026-02-04</span>
                 <span>合入: 2026-02-04</span>
                 <span>耗时: 2.1小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1241</span>
+                <span class="duration-badge">1.9天</span>
+            </div>
+            <div class="pr-title">fix(docs): modify profiling</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-04</span>
+                <span>合入: 2026-02-06</span>
+                <span>耗时: 45.2小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1239</span>
+                <span class="duration-badge">1.2天</span>
+            </div>
+            <div class="pr-title">fix(bug): fix torch scatter op bug</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-04</span>
+                <span>合入: 2026-02-05</span>
+                <span>耗时: 29.2小时</span>
             </div>
         </div>
         
@@ -409,89 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1213</span>
-                <span class="duration-badge">1.1天</span>
-            </div>
-            <div class="pr-title">fix(compiler): convert % to arith.frem according to triton v3.3.0 to follow C se...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-30</span>
-                <span>合入: 2026-01-31</span>
-                <span>耗时: 26.2小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1211</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">refactor(docs):update docs of debugging.md and FAQ.md</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-30</span>
-                <span>合入: 2026-01-30</span>
-                <span>耗时: 2.4小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1210</span>
-                <span class="duration-badge">3.9天</span>
-            </div>
-            <div class="pr-title">fix mindspore when kernel's workspace sizeis not 0</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-30</span>
-                <span>合入: 2026-02-03</span>
-                <span>耗时: 94.3小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1209</span>
-                <span class="duration-badge">0.7天</span>
-            </div>
-            <div class="pr-title">fix(reduce):return type of reduce use builtins tuple</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-29</span>
-                <span>合入: 2026-01-30</span>
-                <span>耗时: 17.1小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1208</span>
-                <span class="duration-badge">0.2天</span>
-            </div>
-            <div class="pr-title">refactor(docs): Docs update</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-29</span>
-                <span>合入: 2026-01-29</span>
-                <span>耗时: 4.3小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1207</span>
-                <span class="duration-badge">0.9天</span>
-            </div>
-            <div class="pr-title">fix(MaskAnalysis): support int1 cmp analysis</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-29</span>
-                <span>合入: 2026-01-30</span>
-                <span>耗时: 22.6小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-02-05 03:31:50</p>
+            <p>数据更新时间: 2026-02-06 03:30:35</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["01-23", "01-24", "01-25", "01-26", "01-27", "01-28", "01-29", "01-30", "01-31", "02-01", "02-02", "02-03", "02-04", "02-05"], "total_values": [10, 2, 0, 12, 6, 11, 6, 9, 5, 0, 7, 5, 10, 1], "failed_values": [2, 0, 0, 2, 2, 2, 1, 2, 0, 0, 3, 1, 4, 0]};
+            const chartData = {"labels": ["01-24", "01-25", "01-26", "01-27", "01-28", "01-29", "01-30", "01-31", "02-01", "02-02", "02-03", "02-04", "02-05", "02-06"], "total_values": [2, 0, 12, 6, 11, 6, 9, 5, 0, 7, 5, 10, 5, 1], "failed_values": [0, 0, 2, 2, 2, 1, 2, 0, 0, 3, 0, 3, 1, 1]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
