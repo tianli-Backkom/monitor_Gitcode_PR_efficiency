@@ -188,26 +188,26 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">40</div>
+                <div class="stat-value submitted-prs">35</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">18</div>
+                <div class="stat-value merged-prs">14</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">19</div>
-                <div class="stat-unit">个PR失败 (失败率47.5%)</div>
+                <div class="stat-value failed-prs">17</div>
+                <div class="stat-unit">个PR失败 (失败率48.6%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.7</div>
-                <div class="stat-unit">天 (17.3小时)</div>
+                <div class="stat-value avg-duration">0.9</div>
+                <div class="stat-unit">天 (21.6小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 86 个PR，失败: 19 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 84 个PR，失败: 17 个
             </div>
         </div>
         
@@ -409,63 +409,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1222</span>
-                <span class="duration-badge">0.0天</span>
-            </div>
-            <div class="pr-title">docs(cann):modified the description of the CANN version</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-31</span>
-                <span>合入: 2026-01-31</span>
-                <span>耗时: 0.6小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1221</span>
-                <span class="duration-badge">0.0天</span>
-            </div>
-            <div class="pr-title">fix(doc):fix doc</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-31</span>
-                <span>合入: 2026-01-31</span>
-                <span>耗时: 0.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1220</span>
-                <span class="duration-badge">0.2天</span>
-            </div>
-            <div class="pr-title">fix(precompile):throw exception when gch precompilation fails</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-31</span>
-                <span>合入: 2026-01-31</span>
-                <span>耗时: 5.7小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1219</span>
-                <span class="duration-badge">0.0天</span>
-            </div>
-            <div class="pr-title">docs(fix):fix the redirection link and version number</div>
-            <div class="pr-meta">
-                <span>创建: 2026-01-31</span>
-                <span>合入: 2026-01-31</span>
-                <span>耗时: 0.5小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-02-07 03:23:56</p>
+            <p>数据更新时间: 2026-02-08 03:53:07</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -491,7 +439,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["01-25", "01-26", "01-27", "01-28", "01-29", "01-30", "01-31", "02-01", "02-02", "02-03", "02-04", "02-05", "02-06", "02-07"], "total_values": [0, 12, 6, 11, 6, 9, 5, 0, 7, 5, 10, 5, 7, 1], "failed_values": [0, 2, 2, 2, 1, 2, 0, 0, 2, 0, 3, 0, 4, 1]};
+            const chartData = {"labels": ["01-26", "01-27", "01-28", "01-29", "01-30", "01-31", "02-01", "02-02", "02-03", "02-04", "02-05", "02-06", "02-07", "02-08"], "total_values": [12, 6, 11, 6, 9, 5, 0, 7, 5, 10, 5, 7, 1, 0], "failed_values": [2, 2, 2, 1, 2, 0, 0, 2, 0, 3, 0, 3, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
