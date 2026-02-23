@@ -25,10 +25,10 @@
           "repository_id": 7623225
         },
         {
-          "id": 4170,
-          "color": "#1083d6",
-          "name": "ci-pipeline-running",
-          "title": "ci-pipeline-running",
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
           "repository_id": 7623225
         }
       ],
@@ -147,7 +147,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-02-21T15:11:00+08:00",
-      "updated_at": "2026-02-22T11:34:38+08:00",
+      "updated_at": "2026-02-22T11:52:43+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -163,7 +163,7 @@
         "head_sha": "cc847d730b4d811333aa9d1b8ec26befbd3fabe2",
         "start_sha": "3eb3b54aa39a2b1206aacb54790c9217127f5ccb"
       },
-      "notes": 9,
+      "notes": 10,
       "source_git_url": "git@gitcode.com:wuzhenqing/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
@@ -186,7 +186,7 @@
     "2026-02-12": 4,
     "2026-02-11": 6,
     "2026-02-10": 5,
-    "2026-02-09": 7
+    "2026-02-09": 5
   },
   "daily_failed_submissions": {
     "2026-02-21": 0,
@@ -221,10 +221,10 @@
           "repository_id": 7623225
         },
         {
-          "id": 4170,
-          "color": "#1083d6",
-          "name": "ci-pipeline-running",
-          "title": "ci-pipeline-running",
+          "id": 4169,
+          "color": "#20c22e",
+          "name": "ci-pipeline-passed",
+          "title": "ci-pipeline-passed",
           "repository_id": 7623225
         }
       ],
@@ -343,7 +343,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-02-21T15:11:00+08:00",
-      "updated_at": "2026-02-22T11:34:38+08:00",
+      "updated_at": "2026-02-22T11:52:43+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
@@ -359,7 +359,7 @@
         "head_sha": "cc847d730b4d811333aa9d1b8ec26befbd3fabe2",
         "start_sha": "3eb3b54aa39a2b1206aacb54790c9217127f5ccb"
       },
-      "notes": 9,
+      "notes": 10,
       "source_git_url": "git@gitcode.com:wuzhenqing/triton-ascend.git",
       "can_merge_check": false,
       "mergeable": true,
