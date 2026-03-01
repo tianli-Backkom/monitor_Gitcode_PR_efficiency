@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">53</div>
+                <div class="stat-value open-prs">51</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">25</div>
+                <div class="stat-value submitted-prs">27</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">15</div>
+                <div class="stat-value merged-prs">16</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">7</div>
-                <div class="stat-unit">个PR失败 (失败率28.0%)</div>
+                <div class="stat-value failed-prs">8</div>
+                <div class="stat-unit">个PR失败 (失败率29.6%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.1</div>
-                <div class="stat-unit">天 (26.9小时)</div>
+                <div class="stat-value avg-duration">0.9</div>
+                <div class="stat-unit">天 (20.6小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 28 个PR，失败: 7 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 28 个PR，失败: 8 个
             </div>
         </div>
         
@@ -227,6 +227,32 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1317</span>
+                <span class="duration-badge">0.1天</span>
+            </div>
+            <div class="pr-title">feat(ptrparse): add parse logic for generic from MakeRangeOp</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-28</span>
+                <span>合入: 2026-02-28</span>
+                <span>耗时: 3.0小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1315</span>
+                <span class="duration-badge">0.9天</span>
+            </div>
+            <div class="pr-title">bugfix(MaskAnalysis): fix mask analysis can not recognize valid mask while calcu...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-02-27</span>
+                <span>合入: 2026-02-28</span>
+                <span>耗时: 21.6小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1314</span>
@@ -409,24 +435,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1291</span>
-                <span class="duration-badge">4.0天</span>
-            </div>
-            <div class="pr-title">fix(docs): fix installation_guide anchor jumps and EN example path</div>
-            <div class="pr-meta">
-                <span>创建: 2026-02-21</span>
-                <span>合入: 2026-02-25</span>
-                <span>耗时: 96.8小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-02-28 03:09:05</p>
+            <p>数据更新时间: 2026-03-01 03:40:15</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -452,7 +465,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["02-15", "02-16", "02-17", "02-18", "02-19", "02-20", "02-21", "02-22", "02-23", "02-24", "02-25", "02-26", "02-27", "02-28"], "total_values": [0, 0, 0, 0, 0, 0, 1, 0, 0, 2, 12, 7, 3, 0], "failed_values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 2, 0, 0]};
+            const chartData = {"labels": ["02-16", "02-17", "02-18", "02-19", "02-20", "02-21", "02-22", "02-23", "02-24", "02-25", "02-26", "02-27", "02-28", "03-01"], "total_values": [0, 0, 0, 0, 0, 1, 0, 0, 2, 12, 7, 3, 3, 0], "failed_values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 2, 0, 1, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
