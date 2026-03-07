@@ -182,13 +182,13 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">54</div>
+                <div class="stat-value open-prs">56</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">35</div>
+                <div class="stat-value submitted-prs">38</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
@@ -200,14 +200,14 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">12</div>
-                <div class="stat-unit">个PR失败 (失败率34.3%)</div>
+                <div class="stat-value failed-prs">16</div>
+                <div class="stat-unit">个PR失败 (失败率42.1%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.8</div>
-                <div class="stat-unit">天 (20.4小时)</div>
+                <div class="stat-value avg-duration">0.9</div>
+                <div class="stat-unit">天 (20.9小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 59 个PR，失败: 12 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 63 个PR，失败: 16 个
             </div>
         </div>
         
@@ -263,6 +263,19 @@
                 <span>创建: 2026-03-05</span>
                 <span>合入: 2026-03-05</span>
                 <span>耗时: 6.1小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1341</span>
+                <span class="duration-badge">1.3天</span>
+            </div>
+            <div class="pr-title">fix(scope): fix the no_inline attr of scope</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-05</span>
+                <span>合入: 2026-03-06</span>
+                <span>耗时: 30.3小时</span>
             </div>
         </div>
         
@@ -474,24 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1317</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">feat(ptrparse): add parse logic for generic from MakeRangeOp</div>
-            <div class="pr-meta">
-                <span>创建: 2026-02-28</span>
-                <span>合入: 2026-02-28</span>
-                <span>耗时: 3.0小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-03-06 03:26:08</p>
+            <p>数据更新时间: 2026-03-07 03:13:31</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["02-21", "02-22", "02-23", "02-24", "02-25", "02-26", "02-27", "02-28", "03-01", "03-02", "03-03", "03-04", "03-05", "03-06"], "total_values": [1, 0, 0, 2, 12, 7, 3, 3, 0, 8, 6, 8, 9, 0], "failed_values": [0, 0, 0, 0, 4, 2, 0, 1, 0, 2, 1, 0, 2, 0]};
+            const chartData = {"labels": ["02-22", "02-23", "02-24", "02-25", "02-26", "02-27", "02-28", "03-01", "03-02", "03-03", "03-04", "03-05", "03-06", "03-07"], "total_values": [0, 0, 2, 12, 7, 3, 3, 0, 8, 6, 8, 9, 4, 0], "failed_values": [0, 0, 0, 4, 2, 0, 1, 0, 2, 1, 0, 3, 3, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
