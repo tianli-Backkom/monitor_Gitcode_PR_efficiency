@@ -194,20 +194,20 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">18</div>
+                <div class="stat-value merged-prs">19</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">16</div>
-                <div class="stat-unit">个PR失败 (失败率43.2%)</div>
+                <div class="stat-value failed-prs">13</div>
+                <div class="stat-unit">个PR失败 (失败率35.1%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.5</div>
-                <div class="stat-unit">天 (36.2小时)</div>
+                <div class="stat-value avg-duration">1.2</div>
+                <div class="stat-unit">天 (28.1小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 72 个PR，失败: 16 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 75 个PR，失败: 13 个
             </div>
         </div>
         
@@ -227,6 +227,19 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1387</span>
+                <span class="duration-badge">0.1天</span>
+            </div>
+            <div class="pr-title">feat: support PrintOp, AnnotationOp in AutoBlockify</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-13</span>
+                <span>合入: 2026-03-13</span>
+                <span>耗时: 2.8小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1381</span>
@@ -268,6 +281,32 @@
         
         <div class="pr-item">
             <div class="pr-header">
+                <span class="pr-number">#1375</span>
+                <span class="duration-badge">1.8天</span>
+            </div>
+            <div class="pr-title">fix(pow):when operands type is half/bf16, fix hmf func map</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-11</span>
+                <span>合入: 2026-03-13</span>
+                <span>耗时: 43.6小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1374</span>
+                <span class="duration-badge">1.9天</span>
+            </div>
+            <div class="pr-title">Revert "fix(scope): fix the no_inline attr of scope"</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-11</span>
+                <span>合入: 2026-03-13</span>
+                <span>耗时: 46.2小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
                 <span class="pr-number">#1373</span>
                 <span class="duration-badge">0.7天</span>
             </div>
@@ -289,6 +328,19 @@
                 <span>创建: 2026-03-11</span>
                 <span>合入: 2026-03-12</span>
                 <span>耗时: 23.7小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1369</span>
+                <span class="duration-badge">2.8天</span>
+            </div>
+            <div class="pr-title">add memory info dump option</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-10</span>
+                <span>合入: 2026-03-13</span>
+                <span>耗时: 66.8小时</span>
             </div>
         </div>
         
@@ -422,50 +474,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1353</span>
-                <span class="duration-badge">3.8天</span>
-            </div>
-            <div class="pr-title">fix(alloc): disable alloc int1</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-06</span>
-                <span>合入: 2026-03-10</span>
-                <span>耗时: 90.2小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1351</span>
-                <span class="duration-badge">2.8天</span>
-            </div>
-            <div class="pr-title">fix: resolve NameError by using real_semantic.reshape</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-06</span>
-                <span>合入: 2026-03-09</span>
-                <span>耗时: 67.3小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1350</span>
-                <span class="duration-badge">4.9天</span>
-            </div>
-            <div class="pr-title">fix(dockerfile) Fixed several bugs in the Dockerfile, corrected the download pat...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-06</span>
-                <span>合入: 2026-03-11</span>
-                <span>耗时: 117.5小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-03-13 03:28:03</p>
+            <p>数据更新时间: 2026-03-14 03:26:01</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -491,7 +504,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["02-28", "03-01", "03-02", "03-03", "03-04", "03-05", "03-06", "03-07", "03-08", "03-09", "03-10", "03-11", "03-12", "03-13"], "total_values": [3, 0, 8, 6, 8, 9, 4, 3, 0, 10, 3, 9, 7, 1], "failed_values": [1, 0, 2, 0, 0, 1, 1, 0, 0, 3, 2, 2, 3, 1]};
+            const chartData = {"labels": ["03-01", "03-02", "03-03", "03-04", "03-05", "03-06", "03-07", "03-08", "03-09", "03-10", "03-11", "03-12", "03-13", "03-14"], "total_values": [0, 8, 6, 8, 9, 4, 3, 0, 10, 3, 9, 7, 4, 1], "failed_values": [0, 2, 0, 0, 1, 1, 0, 0, 3, 1, 1, 2, 1, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
