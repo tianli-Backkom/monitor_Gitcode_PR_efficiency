@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">57</div>
+                <div class="stat-value open-prs">58</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">31</div>
+                <div class="stat-value submitted-prs">34</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">15</div>
+                <div class="stat-value merged-prs">14</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">9</div>
-                <div class="stat-unit">个PR失败 (失败率29.0%)</div>
+                <div class="stat-value failed-prs">11</div>
+                <div class="stat-unit">个PR失败 (失败率32.4%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.5</div>
-                <div class="stat-unit">天 (37.0小时)</div>
+                <div class="stat-value avg-duration">1.2</div>
+                <div class="stat-unit">天 (27.8小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 71 个PR，失败: 9 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 72 个PR，失败: 11 个
             </div>
         </div>
         
@@ -227,6 +227,19 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1401</span>
+                <span class="duration-badge">0.2天</span>
+            </div>
+            <div class="pr-title">fix(driver): align launch hook ABI with other backend by passing launch_metadata...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-17</span>
+                <span>合入: 2026-03-17</span>
+                <span>耗时: 3.9小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1396</span>
@@ -237,6 +250,19 @@
                 <span>创建: 2026-03-16</span>
                 <span>合入: 2026-03-17</span>
                 <span>耗时: 12.5小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1395</span>
+                <span class="duration-badge">0.9天</span>
+            </div>
+            <div class="pr-title">fix(jit): fix incompatibility problem caused by premature introduction</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-16</span>
+                <span>合入: 2026-03-17</span>
+                <span>耗时: 20.7小时</span>
             </div>
         </div>
         
@@ -383,50 +409,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1370</span>
-                <span class="duration-badge">5.0天</span>
-            </div>
-            <div class="pr-title">fix(precompile): add double judgment for header file precompile</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-11</span>
-                <span>合入: 2026-03-16</span>
-                <span>耗时: 119.4小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1369</span>
-                <span class="duration-badge">2.8天</span>
-            </div>
-            <div class="pr-title">add memory info dump option</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-10</span>
-                <span>合入: 2026-03-13</span>
-                <span>耗时: 66.8小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1367</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">Allow fp8 type as input in dot scale</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-10</span>
-                <span>合入: 2026-03-10</span>
-                <span>耗时: 1.5小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-03-17 03:32:20</p>
+            <p>数据更新时间: 2026-03-18 03:39:15</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -452,7 +439,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["03-04", "03-05", "03-06", "03-07", "03-08", "03-09", "03-10", "03-11", "03-12", "03-13", "03-14", "03-15", "03-16", "03-17"], "total_values": [8, 9, 4, 3, 0, 10, 3, 9, 7, 4, 2, 0, 5, 1], "failed_values": [0, 1, 0, 0, 0, 3, 1, 1, 2, 0, 0, 0, 1, 0]};
+            const chartData = {"labels": ["03-05", "03-06", "03-07", "03-08", "03-09", "03-10", "03-11", "03-12", "03-13", "03-14", "03-15", "03-16", "03-17", "03-18"], "total_values": [9, 4, 3, 0, 10, 3, 9, 7, 4, 2, 0, 5, 6, 2], "failed_values": [1, 0, 0, 0, 3, 1, 1, 2, 0, 0, 0, 0, 1, 2]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
