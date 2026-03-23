@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">62</div>
+                <div class="stat-value open-prs">63</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">43</div>
+                <div class="stat-value submitted-prs">45</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">21</div>
+                <div class="stat-value merged-prs">23</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">17</div>
-                <div class="stat-unit">个PR失败 (失败率39.5%)</div>
+                <div class="stat-value failed-prs">19</div>
+                <div class="stat-unit">个PR失败 (失败率42.2%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.9</div>
-                <div class="stat-unit">天 (21.4小时)</div>
+                <div class="stat-value avg-duration">1.1</div>
+                <div class="stat-unit">天 (26.4小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 78 个PR，失败: 17 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 78 个PR，失败: 19 个
             </div>
         </div>
         
@@ -320,6 +320,19 @@
         
         <div class="pr-item">
             <div class="pr-header">
+                <span class="pr-number">#1419</span>
+                <span class="duration-badge">2.8天</span>
+            </div>
+            <div class="pr-title">fix: decompose AND masks to preserve boundary safety in discrete mask conversion</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-20</span>
+                <span>合入: 2026-03-23</span>
+                <span>耗时: 67.4小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
                 <span class="pr-number">#1418</span>
                 <span class="duration-badge">0.1天</span>
             </div>
@@ -354,6 +367,19 @@
                 <span>创建: 2026-03-19</span>
                 <span>合入: 2026-03-20</span>
                 <span>耗时: 27.6小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1412</span>
+                <span class="duration-badge">3.8天</span>
+            </div>
+            <div class="pr-title">fix(load): add 'was_bool_to_int8' attr to load op</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-19</span>
+                <span>合入: 2026-03-23</span>
+                <span>耗时: 91.9小时</span>
             </div>
         </div>
         
@@ -461,37 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1396</span>
-                <span class="duration-badge">0.5天</span>
-            </div>
-            <div class="pr-title">inline_asm use builtins.tuple instead of triton 3.4 tuple</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-16</span>
-                <span>合入: 2026-03-17</span>
-                <span>耗时: 12.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1395</span>
-                <span class="duration-badge">0.9天</span>
-            </div>
-            <div class="pr-title">fix(jit): fix incompatibility problem caused by premature introduction</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-16</span>
-                <span>合入: 2026-03-17</span>
-                <span>耗时: 20.7小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-03-22 03:37:48</p>
+            <p>数据更新时间: 2026-03-23 03:42:30</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["03-09", "03-10", "03-11", "03-12", "03-13", "03-14", "03-15", "03-16", "03-17", "03-18", "03-19", "03-20", "03-21", "03-22"], "total_values": [10, 3, 9, 7, 4, 2, 0, 5, 6, 5, 10, 8, 8, 1], "failed_values": [3, 1, 1, 2, 0, 0, 0, 0, 1, 2, 1, 3, 2, 1]};
+            const chartData = {"labels": ["03-10", "03-11", "03-12", "03-13", "03-14", "03-15", "03-16", "03-17", "03-18", "03-19", "03-20", "03-21", "03-22", "03-23"], "total_values": [3, 9, 7, 4, 2, 0, 5, 6, 5, 10, 8, 8, 2, 2], "failed_values": [1, 1, 2, 0, 0, 0, 0, 1, 3, 1, 3, 2, 2, 1]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
