@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">62</div>
+                <div class="stat-value open-prs">63</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">45</div>
+                <div class="stat-value submitted-prs">51</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">24</div>
+                <div class="stat-value merged-prs">26</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">22</div>
-                <div class="stat-unit">个PR失败 (失败率48.9%)</div>
+                <div class="stat-value failed-prs">26</div>
+                <div class="stat-unit">个PR失败 (失败率51.0%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.4</div>
-                <div class="stat-unit">天 (33.1小时)</div>
+                <div class="stat-value avg-duration">1.1</div>
+                <div class="stat-unit">天 (26.6小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 79 个PR，失败: 22 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 78 个PR，失败: 26 个
             </div>
         </div>
         
@@ -227,6 +227,58 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1458</span>
+                <span class="duration-badge">0.6天</span>
+            </div>
+            <div class="pr-title">fix(make_block_ptr): transform boundary_check when make_block_ptr's order have a...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-25</span>
+                <span>合入: 2026-03-26</span>
+                <span>耗时: 14.5小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1453</span>
+                <span class="duration-badge">0.2天</span>
+            </div>
+            <div class="pr-title">test: move mindspore cases to generalization</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-25</span>
+                <span>合入: 2026-03-25</span>
+                <span>耗时: 4.3小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1449</span>
+                <span class="duration-badge">0.1天</span>
+            </div>
+            <div class="pr-title">fix: Erase mstate inserted ops when select converter return failure</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-25</span>
+                <span>合入: 2026-03-25</span>
+                <span>耗时: 1.4小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1448</span>
+                <span class="duration-badge">0.2天</span>
+            </div>
+            <div class="pr-title">fix(test): prevent device mismatch in boundary_check test assertions</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-25</span>
+                <span>合入: 2026-03-25</span>
+                <span>耗时: 3.8小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1445</span>
@@ -237,6 +289,19 @@
                 <span>创建: 2026-03-24</span>
                 <span>合入: 2026-03-25</span>
                 <span>耗时: 21.0小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1439</span>
+                <span class="duration-badge">1.9天</span>
+            </div>
+            <div class="pr-title">fix(ssbuffer): issues occurring when the cube core is greater than 3</div>
+            <div class="pr-meta">
+                <span>创建: 2026-03-23</span>
+                <span>合入: 2026-03-25</span>
+                <span>耗时: 45.0小时</span>
             </div>
         </div>
         
@@ -422,76 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1417</span>
-                <span class="duration-badge">0.5天</span>
-            </div>
-            <div class="pr-title">feat(cumsum):Added reverse=True for cumsum cumprod cases</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-19</span>
-                <span>合入: 2026-03-20</span>
-                <span>耗时: 12.9小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1415</span>
-                <span class="duration-badge">1.1天</span>
-            </div>
-            <div class="pr-title">feat: Optimized the CV ssbuf feature</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-19</span>
-                <span>合入: 2026-03-20</span>
-                <span>耗时: 27.6小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1414</span>
-                <span class="duration-badge">5.2天</span>
-            </div>
-            <div class="pr-title">fix: Move makeTensorPtrOp cache after redundantOp create</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-19</span>
-                <span>合入: 2026-03-24</span>
-                <span>耗时: 124.3小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1412</span>
-                <span class="duration-badge">3.8天</span>
-            </div>
-            <div class="pr-title">fix(load): add 'was_bool_to_int8' attr to load op</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-19</span>
-                <span>合入: 2026-03-23</span>
-                <span>耗时: 91.9小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1410</span>
-                <span class="duration-badge">1.0天</span>
-            </div>
-            <div class="pr-title">feat: add disable_fma option</div>
-            <div class="pr-meta">
-                <span>创建: 2026-03-19</span>
-                <span>合入: 2026-03-20</span>
-                <span>耗时: 24.8小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-03-25 03:36:27</p>
+            <p>数据更新时间: 2026-03-26 03:46:37</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["03-12", "03-13", "03-14", "03-15", "03-16", "03-17", "03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25"], "total_values": [7, 4, 2, 0, 5, 6, 5, 10, 8, 8, 2, 7, 5, 2], "failed_values": [2, 0, 0, 0, 1, 1, 3, 1, 3, 2, 1, 3, 3, 1]};
+            const chartData = {"labels": ["03-13", "03-14", "03-15", "03-16", "03-17", "03-18", "03-19", "03-20", "03-21", "03-22", "03-23", "03-24", "03-25", "03-26"], "total_values": [4, 2, 0, 5, 6, 5, 10, 8, 8, 2, 7, 5, 11, 1], "failed_values": [0, 0, 0, 1, 1, 3, 1, 3, 3, 1, 2, 2, 6, 1]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
