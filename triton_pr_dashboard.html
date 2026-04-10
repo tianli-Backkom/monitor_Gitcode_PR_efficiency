@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">71</div>
+                <div class="stat-value open-prs">77</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">58</div>
+                <div class="stat-value submitted-prs">45</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">21</div>
+                <div class="stat-value merged-prs">12</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">32</div>
-                <div class="stat-unit">个PR失败 (失败率55.2%)</div>
+                <div class="stat-value failed-prs">36</div>
+                <div class="stat-unit">个PR失败 (失败率80.0%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.4</div>
-                <div class="stat-unit">天 (33.8小时)</div>
+                <div class="stat-value avg-duration">1.7</div>
+                <div class="stat-unit">天 (41.3小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 120 个PR，失败: 32 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 127 个PR，失败: 36 个
             </div>
         </div>
         
@@ -237,6 +237,19 @@
                 <span>创建: 2026-04-08</span>
                 <span>合入: 2026-04-08</span>
                 <span>耗时: 2.1小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1572</span>
+                <span class="duration-badge">1.1天</span>
+            </div>
+            <div class="pr-title">fix: add disable_tightly_coupled_buffer_reuse compile option to adapt to</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-08</span>
+                <span>合入: 2026-04-09</span>
+                <span>耗时: 27.0小时</span>
             </div>
         </div>
         
@@ -263,6 +276,19 @@
                 <span>创建: 2026-04-08</span>
                 <span>合入: 2026-04-08</span>
                 <span>耗时: 8.0小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1566</span>
+                <span class="duration-badge">1.3天</span>
+            </div>
+            <div class="pr-title">fix(Simt Template): when mask is discrete and ptr is continuous, we should also ...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-08</span>
+                <span>合入: 2026-04-09</span>
+                <span>耗时: 30.4小时</span>
             </div>
         </div>
         
@@ -357,141 +383,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1547</span>
-                <span class="duration-badge">4.3天</span>
-            </div>
-            <div class="pr-title">fix(packaging): avoid triton overwriting triton-ascend after installation</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-07</span>
-                <span>耗时: 102.2小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1545</span>
-                <span class="duration-badge">0.2天</span>
-            </div>
-            <div class="pr-title">feat(libdevice): add support for 'fast_dividef' and 'fast_expf' operations</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-03</span>
-                <span>耗时: 4.6小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1544</span>
-                <span class="duration-badge">4.3天</span>
-            </div>
-            <div class="pr-title">fix(autotune): harden autotuner parsing and fp8 dtype handling</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-07</span>
-                <span>耗时: 102.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1542</span>
-                <span class="duration-badge">0.2天</span>
-            </div>
-            <div class="pr-title">fix(MaskAnalysis): when got a negative dim value in mask analysis, we change it ...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-03</span>
-                <span>耗时: 3.8小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1541</span>
-                <span class="duration-badge">0.3天</span>
-            </div>
-            <div class="pr-title">fix: Fixing the Extension API in tutorials</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-03</span>
-                <span>耗时: 7.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1540</span>
-                <span class="duration-badge">0.5天</span>
-            </div>
-            <div class="pr-title">build(safe):Add safe compile opitions for libtriton.so libentryC.so</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-02</span>
-                <span>合入: 2026-04-03</span>
-                <span>耗时: 12.0小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1535</span>
-                <span class="duration-badge">0.5天</span>
-            </div>
-            <div class="pr-title">build(safe):Add safe compile opitions for libtriton.so libentryC.so</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-02</span>
-                <span>合入: 2026-04-03</span>
-                <span>耗时: 12.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1531</span>
-                <span class="duration-badge">0.8天</span>
-            </div>
-            <div class="pr-title">fix(MaskAnalysis): when got a negative dim value in mask analysis, we change it ...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-02</span>
-                <span>合入: 2026-04-03</span>
-                <span>耗时: 18.7小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1527</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">feat(3.5): change version to 3.5.1</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-02</span>
-                <span>合入: 2026-04-02</span>
-                <span>耗时: 1.1小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1525</span>
-                <span class="duration-badge">0.2天</span>
-            </div>
-            <div class="pr-title">fix(driver):Remove set_device_limit API</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-02</span>
-                <span>合入: 2026-04-02</span>
-                <span>耗时: 4.0小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-04-09 03:46:06</p>
+            <p>数据更新时间: 2026-04-10 03:58:47</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +413,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["03-27", "03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09"], "total_values": [6, 5, 0, 20, 13, 9, 22, 14, 1, 0, 0, 9, 13, 2], "failed_values": [1, 1, 0, 6, 2, 2, 2, 4, 1, 0, 0, 5, 7, 0]};
+            const chartData = {"labels": ["03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10"], "total_values": [5, 0, 20, 13, 9, 22, 14, 1, 0, 0, 9, 13, 11, 4], "failed_values": [1, 0, 6, 2, 2, 3, 4, 1, 0, 0, 6, 4, 4, 2]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
