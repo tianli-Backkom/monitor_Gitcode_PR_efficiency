@@ -188,7 +188,7 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">45</div>
+                <div class="stat-value submitted-prs">44</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
@@ -200,14 +200,14 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">36</div>
-                <div class="stat-unit">个PR失败 (失败率80.0%)</div>
+                <div class="stat-value failed-prs">37</div>
+                <div class="stat-unit">个PR失败 (失败率84.1%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.7</div>
-                <div class="stat-unit">天 (41.3小时)</div>
+                <div class="stat-value avg-duration">0.8</div>
+                <div class="stat-unit">天 (19.7小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 127 个PR，失败: 36 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 125 个PR，失败: 37 个
             </div>
         </div>
         
@@ -227,6 +227,45 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1593</span>
+                <span class="duration-badge">0.8天</span>
+            </div>
+            <div class="pr-title">fix: raise error for unsupported allow_tf32 in dot_op</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-10</span>
+                <span>合入: 2026-04-11</span>
+                <span>耗时: 19.1小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1592</span>
+                <span class="duration-badge">0.3天</span>
+            </div>
+            <div class="pr-title">fix(doc): doc-tools</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-10</span>
+                <span>合入: 2026-04-10</span>
+                <span>耗时: 8.3小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1587</span>
+                <span class="duration-badge">1.5天</span>
+            </div>
+            <div class="pr-title">feat(libdevice)：Replace the operations implementation in libdevice.10.bc with SI...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-09</span>
+                <span>合入: 2026-04-11</span>
+                <span>耗时: 37.0小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1575</span>
@@ -250,6 +289,19 @@
                 <span>创建: 2026-04-08</span>
                 <span>合入: 2026-04-09</span>
                 <span>耗时: 27.0小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1569</span>
+                <span class="duration-badge">1.9天</span>
+            </div>
+            <div class="pr-title">fix(docs): add mitigation instructions for installation overwrite issues to the ...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-08</span>
+                <span>合入: 2026-04-10</span>
+                <span>耗时: 45.8小时</span>
             </div>
         </div>
         
@@ -331,63 +383,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1552</span>
-                <span class="duration-badge">3.9天</span>
-            </div>
-            <div class="pr-title">fix: add disable_tightly_coupled_buffer_reuse compile option to adapt to bisheng...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-07</span>
-                <span>耗时: 94.1小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1550</span>
-                <span class="duration-badge">3.7天</span>
-            </div>
-            <div class="pr-title">fix : resolve CleanCode warnings</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-07</span>
-                <span>耗时: 89.7小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1549</span>
-                <span class="duration-badge">3.8天</span>
-            </div>
-            <div class="pr-title">fix : resolve CleanCode warnings</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-07</span>
-                <span>耗时: 90.1小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1548</span>
-                <span class="duration-badge">4.0天</span>
-            </div>
-            <div class="pr-title">fix(BlockPtrAnalysis):add dimension information to scalar blockdata</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-03</span>
-                <span>合入: 2026-04-07</span>
-                <span>耗时: 95.5小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-04-10 03:58:47</p>
+            <p>数据更新时间: 2026-04-11 03:35:41</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -413,7 +413,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["03-28", "03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10"], "total_values": [5, 0, 20, 13, 9, 22, 14, 1, 0, 0, 9, 13, 11, 4], "failed_values": [1, 0, 6, 2, 2, 3, 4, 1, 0, 0, 6, 4, 4, 2]};
+            const chartData = {"labels": ["03-29", "03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11"], "total_values": [0, 20, 13, 9, 22, 14, 1, 0, 0, 9, 13, 11, 9, 1], "failed_values": [0, 6, 2, 2, 3, 4, 1, 0, 0, 6, 4, 4, 5, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
