@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">78</div>
+                <div class="stat-value open-prs">74</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">46</div>
+                <div class="stat-value submitted-prs">48</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">13</div>
+                <div class="stat-value merged-prs">16</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">37</div>
-                <div class="stat-unit">个PR失败 (失败率80.4%)</div>
+                <div class="stat-value failed-prs">36</div>
+                <div class="stat-unit">个PR失败 (失败率75.0%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.8</div>
-                <div class="stat-unit">天 (18.2小时)</div>
+                <div class="stat-value avg-duration">1.3</div>
+                <div class="stat-unit">天 (30.2小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 125 个PR，失败: 37 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 122 个PR，失败: 36 个
             </div>
         </div>
         
@@ -227,6 +227,19 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1601</span>
+                <span class="duration-badge">1.8天</span>
+            </div>
+            <div class="pr-title">fix(bug) : add third-party dependences pybind11 and pandas</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-11</span>
+                <span>合入: 2026-04-13</span>
+                <span>耗时: 44.2小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1599</span>
@@ -281,6 +294,19 @@
         
         <div class="pr-item">
             <div class="pr-header">
+                <span class="pr-number">#1584</span>
+                <span class="duration-badge">3.7天</span>
+            </div>
+            <div class="pr-title">fix: modify num_warps</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-09</span>
+                <span>合入: 2026-04-13</span>
+                <span>耗时: 89.6小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
                 <span class="pr-number">#1575</span>
                 <span class="duration-badge">0.1天</span>
             </div>
@@ -302,6 +328,19 @@
                 <span>创建: 2026-04-08</span>
                 <span>合入: 2026-04-09</span>
                 <span>耗时: 27.0小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1570</span>
+                <span class="duration-badge">4.8天</span>
+            </div>
+            <div class="pr-title">Add Opensource software notice</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-08</span>
+                <span>合入: 2026-04-13</span>
+                <span>耗时: 114.2小时</span>
             </div>
         </div>
         
@@ -400,7 +439,7 @@
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-04-12 04:09:50</p>
+            <p>数据更新时间: 2026-04-13 04:19:17</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -426,7 +465,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["03-30", "03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12"], "total_values": [20, 13, 9, 22, 14, 1, 0, 0, 9, 13, 11, 9, 4, 0], "failed_values": [6, 2, 2, 3, 4, 1, 0, 0, 5, 4, 4, 5, 1, 0]};
+            const chartData = {"labels": ["03-31", "04-01", "04-02", "04-03", "04-04", "04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13"], "total_values": [13, 9, 22, 14, 1, 0, 0, 9, 13, 11, 9, 4, 0, 2], "failed_values": [2, 2, 3, 3, 1, 0, 0, 5, 4, 4, 5, 1, 0, 1]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
