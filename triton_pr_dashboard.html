@@ -188,26 +188,26 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">52</div>
+                <div class="stat-value submitted-prs">49</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">23</div>
+                <div class="stat-value merged-prs">20</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
                 <div class="stat-value failed-prs">35</div>
-                <div class="stat-unit">个PR失败 (失败率67.3%)</div>
+                <div class="stat-unit">个PR失败 (失败率71.4%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
                 <div class="stat-value avg-duration">1.1</div>
-                <div class="stat-unit">天 (26.2小时)</div>
+                <div class="stat-unit">天 (25.4小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 96 个PR，失败: 35 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 95 个PR，失败: 35 个
             </div>
         </div>
         
@@ -491,7 +491,7 @@
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-04-18 03:47:19</p>
+            <p>数据更新时间: 2026-04-19 04:13:38</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["04-05", "04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "04-18"], "total_values": [0, 0, 9, 13, 11, 9, 4, 0, 4, 14, 7, 16, 8, 0], "failed_values": [0, 0, 4, 3, 4, 3, 0, 0, 2, 4, 1, 6, 8, 0]};
+            const chartData = {"labels": ["04-06", "04-07", "04-08", "04-09", "04-10", "04-11", "04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "04-18", "04-19"], "total_values": [0, 9, 13, 11, 9, 4, 0, 4, 14, 7, 16, 8, 0, 0], "failed_values": [0, 4, 3, 4, 3, 0, 0, 2, 4, 1, 6, 8, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
