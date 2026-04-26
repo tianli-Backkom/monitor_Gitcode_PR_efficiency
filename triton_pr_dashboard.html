@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">72</div>
+                <div class="stat-value open-prs">71</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">55</div>
+                <div class="stat-value submitted-prs">62</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">19</div>
+                <div class="stat-value merged-prs">22</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">29</div>
-                <div class="stat-unit">个PR失败 (失败率52.7%)</div>
+                <div class="stat-value failed-prs">31</div>
+                <div class="stat-unit">个PR失败 (失败率50.0%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.8</div>
-                <div class="stat-unit">天 (19.7小时)</div>
+                <div class="stat-value avg-duration">0.9</div>
+                <div class="stat-unit">天 (22.8小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 107 个PR，失败: 29 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 111 个PR，失败: 31 个
             </div>
         </div>
         
@@ -227,6 +227,19 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1702</span>
+                <span class="duration-badge">0.8天</span>
+            </div>
+            <div class="pr-title">feat(autotune):1.sync autotune；2. support hint-based config expansion</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-24</span>
+                <span>合入: 2026-04-25</span>
+                <span>耗时: 20.5小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1696</span>
@@ -250,6 +263,19 @@
                 <span>创建: 2026-04-24</span>
                 <span>合入: 2026-04-24</span>
                 <span>耗时: 7.4小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1694</span>
+                <span class="duration-badge">1.8天</span>
+            </div>
+            <div class="pr-title">feat: Support tensor for  fixpipe in affinity</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-23</span>
+                <span>合入: 2026-04-25</span>
+                <span>耗时: 42.1小时</span>
             </div>
         </div>
         
@@ -341,6 +367,19 @@
                 <span>创建: 2026-04-23</span>
                 <span>合入: 2026-04-25</span>
                 <span>耗时: 47.1小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1677</span>
+                <span class="duration-badge">2.6天</span>
+            </div>
+            <div class="pr-title">fix: the chip type is added to the bishengir-compile</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-23</span>
+                <span>合入: 2026-04-25</span>
+                <span>耗时: 62.1小时</span>
             </div>
         </div>
         
@@ -448,37 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1657</span>
-                <span class="duration-badge">2.2天</span>
-            </div>
-            <div class="pr-title">fix: inject hacc.target after __init__ of CodeGenerator</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-21</span>
-                <span>合入: 2026-04-23</span>
-                <span>耗时: 52.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1656</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">fix(NPUIR):Due to the NPUIR update, the compilation option value for printing np...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-21</span>
-                <span>合入: 2026-04-21</span>
-                <span>耗时: 1.2小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-04-25 03:50:55</p>
+            <p>数据更新时间: 2026-04-26 04:21:43</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -504,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["04-12", "04-13", "04-14", "04-15", "04-16", "04-17", "04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-24", "04-25"], "total_values": [0, 4, 14, 7, 16, 8, 0, 0, 2, 9, 14, 19, 9, 2], "failed_values": [0, 2, 4, 1, 6, 2, 0, 0, 2, 2, 4, 3, 3, 0]};
+            const chartData = {"labels": ["04-13", "04-14", "04-15", "04-16", "04-17", "04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-24", "04-25", "04-26"], "total_values": [4, 14, 7, 16, 8, 0, 0, 2, 9, 14, 19, 9, 9, 0], "failed_values": [2, 4, 1, 6, 2, 0, 0, 2, 2, 4, 4, 3, 1, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
