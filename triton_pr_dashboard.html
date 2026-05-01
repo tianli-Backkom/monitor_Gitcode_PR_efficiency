@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">80</div>
+                <div class="stat-value open-prs">83</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">81</div>
+                <div class="stat-value submitted-prs">70</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">36</div>
+                <div class="stat-value merged-prs">26</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">33</div>
-                <div class="stat-unit">个PR失败 (失败率40.7%)</div>
+                <div class="stat-value failed-prs">40</div>
+                <div class="stat-unit">个PR失败 (失败率57.1%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">1.5</div>
-                <div class="stat-unit">天 (35.5小时)</div>
+                <div class="stat-value avg-duration">1.2</div>
+                <div class="stat-unit">天 (28.8小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 131 个PR，失败: 33 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 124 个PR，失败: 40 个
             </div>
         </div>
         
@@ -227,6 +227,32 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1766</span>
+                <span class="duration-badge">0.1天</span>
+            </div>
+            <div class="pr-title">feat(filecheck): add mlir filecheck and delete failed test cases temporarily</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-30</span>
+                <span>合入: 2026-04-30</span>
+                <span>耗时: 1.7小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1765</span>
+                <span class="duration-badge">0.1天</span>
+            </div>
+            <div class="pr-title">test(mlir): add dot int4 mlir && fix FileCheck bug</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-30</span>
+                <span>合入: 2026-04-30</span>
+                <span>耗时: 1.8小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1759</span>
@@ -461,37 +487,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1720</span>
-                <span class="duration-badge">2.1天</span>
-            </div>
-            <div class="pr-title">Adapt to the upstream community tritonparse and extract mix_mode as an independe...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-27</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 49.5小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1717</span>
-                <span class="duration-badge">2.9天</span>
-            </div>
-            <div class="pr-title">feat:The framework of UpdateConditionInfoPass</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-26</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 68.7小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-04-30 04:31:09</p>
+            <p>数据更新时间: 2026-05-01 04:48:43</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -517,7 +517,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["04-17", "04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30"], "total_values": [8, 0, 0, 2, 9, 14, 19, 9, 9, 6, 12, 21, 8, 3], "failed_values": [2, 0, 0, 2, 2, 4, 3, 4, 2, 1, 4, 3, 3, 2]};
+            const chartData = {"labels": ["04-18", "04-19", "04-20", "04-21", "04-22", "04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30", "05-01"], "total_values": [0, 0, 2, 9, 14, 19, 9, 9, 6, 12, 21, 8, 10, 0], "failed_values": [0, 0, 2, 2, 4, 3, 4, 4, 1, 4, 3, 3, 8, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
