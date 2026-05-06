@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">85</div>
+                <div class="stat-value open-prs">86</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">38</div>
+                <div class="stat-value submitted-prs">19</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">12</div>
+                <div class="stat-value merged-prs">3</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">39</div>
-                <div class="stat-unit">个PR失败 (失败率102.6%)</div>
+                <div class="stat-value failed-prs">37</div>
+                <div class="stat-unit">个PR失败 (失败率194.7%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.5</div>
-                <div class="stat-unit">天 (11.3小时)</div>
+                <div class="stat-value avg-duration">0.2</div>
+                <div class="stat-unit">天 (5.8小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 117 个PR，失败: 39 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 110 个PR，失败: 37 个
             </div>
         </div>
         
@@ -266,128 +266,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1755</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">feat: Rolling back the bishengir-compile to distinguish chip model judgments</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-29</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 2.9小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1753</span>
-                <span class="duration-badge">0.3天</span>
-            </div>
-            <div class="pr-title">feat : add compile option enable_preload</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-29</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 7.2小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1752</span>
-                <span class="duration-badge">0.3天</span>
-            </div>
-            <div class="pr-title">feat : add compile option enable_preload</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-29</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 7.2小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1744</span>
-                <span class="duration-badge">1.5天</span>
-            </div>
-            <div class="pr-title">feat: Triggering operator recompilation when the CANN version is changed</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-28</span>
-                <span>合入: 2026-04-30</span>
-                <span>耗时: 36.4小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1742</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">feat: implement OpClassifier pass for CUBE/VECTOR operation classification</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-28</span>
-                <span>合入: 2026-04-28</span>
-                <span>耗时: 1.4小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1741</span>
-                <span class="duration-badge">0.7天</span>
-            </div>
-            <div class="pr-title">test: cover compile_on_910_95 implicit permute conversion</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-28</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 17.8小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1740</span>
-                <span class="duration-badge">0.9天</span>
-            </div>
-            <div class="pr-title">indirect_load: apply 'indirect_load' conversion in unstructure-conversion-pass</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-28</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 20.9小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1737</span>
-                <span class="duration-badge">1.0天</span>
-            </div>
-            <div class="pr-title">fix(op): support fast_math semantics in dot_scaled lowering</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-28</span>
-                <span>合入: 2026-04-29</span>
-                <span>耗时: 24.1小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1734</span>
-                <span class="duration-badge">0.0天</span>
-            </div>
-            <div class="pr-title">test(indirect_load/store):Add MLIR test cases for fully unstructured discrete lo...</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-28</span>
-                <span>合入: 2026-04-28</span>
-                <span>耗时: 1.1小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-05-05 04:15:16</p>
+            <p>数据更新时间: 2026-05-06 04:32:46</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -413,7 +296,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["04-22", "04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30", "05-01", "05-02", "05-03", "05-04", "05-05"], "total_values": [14, 19, 9, 9, 6, 12, 21, 8, 10, 0, 0, 0, 2, 0], "failed_values": [4, 3, 4, 4, 1, 4, 4, 3, 8, 0, 0, 0, 2, 0]};
+            const chartData = {"labels": ["04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30", "05-01", "05-02", "05-03", "05-04", "05-05", "05-06"], "total_values": [19, 9, 9, 6, 12, 21, 8, 10, 0, 0, 0, 2, 0, 3], "failed_values": [3, 4, 4, 1, 4, 4, 3, 7, 0, 0, 0, 1, 0, 2]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
