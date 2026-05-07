@@ -182,7 +182,7 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">86</div>
+                <div class="stat-value open-prs">83</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
@@ -194,20 +194,20 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">3</div>
+                <div class="stat-value merged-prs">7</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">37</div>
-                <div class="stat-unit">个PR失败 (失败率194.7%)</div>
+                <div class="stat-value failed-prs">30</div>
+                <div class="stat-unit">个PR失败 (失败率157.9%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.2</div>
-                <div class="stat-unit">天 (5.8小时)</div>
+                <div class="stat-value avg-duration">1.1</div>
+                <div class="stat-unit">天 (26.9小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 110 个PR，失败: 37 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 100 个PR，失败: 30 个
             </div>
         </div>
         
@@ -227,6 +227,71 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1778</span>
+                <span class="duration-badge">0.8天</span>
+            </div>
+            <div class="pr-title">feat: docs update,Added version 3.2.1</div>
+            <div class="pr-meta">
+                <span>创建: 2026-05-06</span>
+                <span>合入: 2026-05-07</span>
+                <span>耗时: 18.2小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1777</span>
+                <span class="duration-badge">0.7天</span>
+            </div>
+            <div class="pr-title">fix[compiler]: add bishengir-opt option</div>
+            <div class="pr-meta">
+                <span>创建: 2026-05-06</span>
+                <span>合入: 2026-05-07</span>
+                <span>耗时: 17.7小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1775</span>
+                <span class="duration-badge">0.1天</span>
+            </div>
+            <div class="pr-title">fix: update mlir case for implicit permute</div>
+            <div class="pr-meta">
+                <span>创建: 2026-05-06</span>
+                <span>合入: 2026-05-06</span>
+                <span>耗时: 1.5小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1774</span>
+                <span class="duration-badge">0.2天</span>
+            </div>
+            <div class="pr-title">feat(libdevice): Supplement a new batch of libdevice operators: (div_ru, mul_rd,...</div>
+            <div class="pr-meta">
+                <span>创建: 2026-05-06</span>
+                <span>合入: 2026-05-06</span>
+                <span>耗时: 5.2小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1769</span>
+                <span class="duration-badge">5.9天</span>
+            </div>
+            <div class="pr-title">docs: add api extension documentation for al and bl</div>
+            <div class="pr-meta">
+                <span>创建: 2026-04-30</span>
+                <span>合入: 2026-05-06</span>
+                <span>耗时: 141.8小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1766</span>
@@ -253,24 +318,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1759</span>
-                <span class="duration-badge">0.6天</span>
-            </div>
-            <div class="pr-title">feat: Triggering operator recompilation when the CANN version is changed</div>
-            <div class="pr-meta">
-                <span>创建: 2026-04-29</span>
-                <span>合入: 2026-04-30</span>
-                <span>耗时: 14.0小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-05-06 04:32:46</p>
+            <p>数据更新时间: 2026-05-07 04:33:19</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -296,7 +348,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["04-23", "04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30", "05-01", "05-02", "05-03", "05-04", "05-05", "05-06"], "total_values": [19, 9, 9, 6, 12, 21, 8, 10, 0, 0, 0, 2, 0, 3], "failed_values": [3, 4, 4, 1, 4, 4, 3, 7, 0, 0, 0, 1, 0, 2]};
+            const chartData = {"labels": ["04-24", "04-25", "04-26", "04-27", "04-28", "04-29", "04-30", "05-01", "05-02", "05-03", "05-04", "05-05", "05-06", "05-07"], "total_values": [9, 9, 6, 12, 21, 8, 10, 0, 0, 0, 2, 0, 10, 0], "failed_values": [4, 4, 1, 4, 4, 2, 4, 0, 0, 0, 1, 0, 4, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
