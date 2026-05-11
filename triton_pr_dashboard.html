@@ -188,26 +188,26 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">37</div>
+                <div class="stat-value submitted-prs">41</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">7</div>
+                <div class="stat-value merged-prs">9</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">33</div>
-                <div class="stat-unit">个PR失败 (失败率89.2%)</div>
+                <div class="stat-value failed-prs">31</div>
+                <div class="stat-unit">个PR失败 (失败率75.6%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
                 <div class="stat-value avg-duration">0.6</div>
-                <div class="stat-unit">天 (13.2小时)</div>
+                <div class="stat-unit">天 (15.4小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 94 个PR，失败: 33 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 88 个PR，失败: 31 个
             </div>
         </div>
         
@@ -227,6 +227,32 @@
             <h2 class="section-title">⚡ 近期合入PR详情</h2>
             <div class="pr-list">
                 
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1806</span>
+                <span class="duration-badge">0.9天</span>
+            </div>
+            <div class="pr-title">Fit 06-fused-attention.py for the lastest triton-ascend</div>
+            <div class="pr-meta">
+                <span>创建: 2026-05-10</span>
+                <span>合入: 2026-05-11</span>
+                <span>耗时: 22.4小时</span>
+            </div>
+        </div>
+        
+        <div class="pr-item">
+            <div class="pr-header">
+                <span class="pr-number">#1804</span>
+                <span class="duration-badge">1.0天</span>
+            </div>
+            <div class="pr-title">fix: pass enable_vf_fusion flag</div>
+            <div class="pr-meta">
+                <span>创建: 2026-05-10</span>
+                <span>合入: 2026-05-11</span>
+                <span>耗时: 23.5小时</span>
+            </div>
+        </div>
+        
         <div class="pr-item">
             <div class="pr-header">
                 <span class="pr-number">#1789</span>
@@ -322,7 +348,7 @@
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-05-10 04:42:41</p>
+            <p>数据更新时间: 2026-05-11 04:57:15</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -348,7 +374,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["04-27", "04-28", "04-29", "04-30", "05-01", "05-02", "05-03", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10"], "total_values": [12, 21, 8, 10, 0, 0, 0, 2, 0, 10, 3, 10, 9, 3], "failed_values": [5, 4, 2, 4, 0, 0, 0, 1, 0, 4, 1, 4, 6, 1]};
+            const chartData = {"labels": ["04-28", "04-29", "04-30", "05-01", "05-02", "05-03", "05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11"], "total_values": [21, 8, 10, 0, 0, 0, 2, 0, 10, 3, 10, 9, 5, 2], "failed_values": [4, 2, 4, 0, 0, 0, 1, 0, 5, 0, 4, 6, 2, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
