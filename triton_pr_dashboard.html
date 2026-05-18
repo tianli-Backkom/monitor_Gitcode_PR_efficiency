@@ -182,32 +182,32 @@
         <div class="stats-grid">
             <div class="stat-card">
                 <div class="stat-title">待合入PR</div>
-                <div class="stat-value open-prs">92</div>
+                <div class="stat-value open-prs">93</div>
                 <div class="stat-unit">个PR等待处理</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">62</div>
+                <div class="stat-value submitted-prs">59</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天合入</div>
-                <div class="stat-value merged-prs">17</div>
+                <div class="stat-value merged-prs">15</div>
                 <div class="stat-unit">个PR已合入</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">29</div>
-                <div class="stat-unit">个PR失败 (失败率46.8%)</div>
+                <div class="stat-value failed-prs">30</div>
+                <div class="stat-unit">个PR失败 (失败率50.8%)</div>
             </div>
             
             <div class="stat-card">
                 <div class="stat-title">平均合入时长</div>
-                <div class="stat-value avg-duration">0.9</div>
-                <div class="stat-unit">天 (22.1小时)</div>
+                <div class="stat-value avg-duration">1.0</div>
+                <div class="stat-unit">天 (23.3小时)</div>
             </div>
         </div>
         
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 99 个PR，失败: 29 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 100 个PR，失败: 30 个
             </div>
         </div>
         
@@ -422,37 +422,11 @@
             </div>
         </div>
         
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1810</span>
-                <span class="duration-badge">0.9天</span>
-            </div>
-            <div class="pr-title">feat: open multibuffer and no-limit by default</div>
-            <div class="pr-meta">
-                <span>创建: 2026-05-11</span>
-                <span>合入: 2026-05-12</span>
-                <span>耗时: 22.8小时</span>
-            </div>
-        </div>
-        
-        <div class="pr-item">
-            <div class="pr-header">
-                <span class="pr-number">#1809</span>
-                <span class="duration-badge">0.1天</span>
-            </div>
-            <div class="pr-title">test: add atomic_op cases for discrete memory access</div>
-            <div class="pr-meta">
-                <span>创建: 2026-05-11</span>
-                <span>合入: 2026-05-11</span>
-                <span>耗时: 3.4小时</span>
-            </div>
-        </div>
-        
             </div>
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-05-17 04:52:04</p>
+            <p>数据更新时间: 2026-05-18 05:04:54</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -478,7 +452,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["05-04", "05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17"], "total_values": [2, 0, 10, 3, 10, 9, 5, 7, 19, 16, 9, 6, 2, 1], "failed_values": [1, 0, 4, 0, 2, 1, 1, 2, 7, 6, 2, 3, 0, 0]};
+            const chartData = {"labels": ["05-05", "05-06", "05-07", "05-08", "05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18"], "total_values": [0, 10, 3, 10, 9, 5, 7, 19, 16, 9, 6, 2, 2, 0], "failed_values": [0, 4, 0, 2, 1, 1, 2, 7, 6, 2, 3, 1, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
