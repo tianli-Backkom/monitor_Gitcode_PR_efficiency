@@ -188,7 +188,7 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天提交</div>
-                <div class="stat-value submitted-prs">4</div>
+                <div class="stat-value submitted-prs">3</div>
                 <div class="stat-unit">个新PR</div>
             </div>
             
@@ -200,8 +200,8 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">25</div>
-                <div class="stat-unit">个PR失败 (失败率625.0%)</div>
+                <div class="stat-value failed-prs">24</div>
+                <div class="stat-unit">个PR失败 (失败率800.0%)</div>
             </div>
             
             <div class="stat-card">
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 83 个PR，失败: 25 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 75 个PR，失败: 24 个
             </div>
         </div>
         
@@ -231,7 +231,7 @@
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-05-22 04:59:18</p>
+            <p>数据更新时间: 2026-05-23 04:38:29</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -257,7 +257,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["05-09", "05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22"], "total_values": [9, 5, 7, 19, 16, 9, 6, 2, 2, 0, 0, 0, 0, 0], "failed_values": [1, 1, 2, 7, 7, 2, 3, 1, 0, 0, 0, 0, 0, 0]};
+            const chartData = {"labels": ["05-10", "05-11", "05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23"], "total_values": [5, 7, 19, 16, 9, 6, 2, 2, 0, 0, 0, 0, 0, 0], "failed_values": [1, 2, 7, 7, 2, 3, 1, 0, 0, 0, 0, 0, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
