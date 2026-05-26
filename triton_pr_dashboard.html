@@ -200,7 +200,7 @@
             
             <div class="stat-card">
                 <div class="stat-title">近7天失败</div>
-                <div class="stat-value failed-prs">22</div>
+                <div class="stat-value failed-prs">18</div>
                 <div class="stat-unit">个PR失败 (失败率0%)</div>
             </div>
             
@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 59 个PR，失败: 22 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 51 个PR，失败: 18 个
             </div>
         </div>
         
@@ -231,7 +231,7 @@
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-05-25 05:18:06</p>
+            <p>数据更新时间: 2026-05-26 05:02:06</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -257,7 +257,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["05-12", "05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25"], "total_values": [19, 16, 9, 6, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0], "failed_values": [7, 7, 2, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0]};
+            const chartData = {"labels": ["05-13", "05-14", "05-15", "05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26"], "total_values": [16, 9, 6, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0], "failed_values": [7, 2, 3, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
