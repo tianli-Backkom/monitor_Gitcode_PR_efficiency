@@ -219,7 +219,7 @@
                 <canvas id="dailyChart"></canvas>
             </div>
             <div style="text-align: center; margin-top: 15px; color: #666; font-size: 0.9rem;">
-                横轴：日期 | 纵轴：PR提交数量 | 总计: 4 个PR，失败: 1 个
+                横轴：日期 | 纵轴：PR提交数量 | 总计: 3 个PR，失败: 1 个
             </div>
         </div>
         
@@ -231,7 +231,7 @@
         </div>
         
         <div class="footer">
-            <p>数据更新时间: 2026-05-29 05:12:00</p>
+            <p>数据更新时间: 2026-05-30 04:51:59</p>
             <p>基于Gitcode API数据生成</p>
         </div>
     </div>
@@ -257,7 +257,7 @@
             if (!ctx) return;
             
             // 准备图表数据
-            const chartData = {"labels": ["05-16", "05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29"], "total_values": [2, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "failed_values": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]};
+            const chartData = {"labels": ["05-17", "05-18", "05-19", "05-20", "05-21", "05-22", "05-23", "05-24", "05-25", "05-26", "05-27", "05-28", "05-29", "05-30"], "total_values": [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], "failed_values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]};
             const dailyData = {
                 labels: chartData.labels,
                 totalValues: chartData.total_values,
