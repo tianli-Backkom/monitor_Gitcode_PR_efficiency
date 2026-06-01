@@ -10,12 +10,8 @@
     "max_duration_days": null,
     "pr_details": []
   },
-  "daily_submissions": {
-    "2026-05-17": 1
-  },
-  "daily_failed_submissions": {
-    "2026-05-17": 0
-  },
+  "daily_submissions": {},
+  "daily_failed_submissions": {},
   "all_prs": [
     {
       "number": 1869,
@@ -7823,7 +7819,7 @@
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-05-12T20:02:15+08:00",
-      "updated_at": "2026-05-31T13:16:33+08:00",
+      "updated_at": "2026-06-01T14:00:09+08:00",
       "merged_at": "",
       "closed_at": "",
       "target_branch": "main",
