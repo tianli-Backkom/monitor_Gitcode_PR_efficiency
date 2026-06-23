@@ -1,6 +1,6 @@
 {
   "repository": "Ascend/triton-ascend",
-  "total_open_prs": 92,
+  "total_open_prs": 91,
   "recent_submitted_prs": [],
   "recent_merged_prs_analysis": {
     "count": 0,
@@ -5555,48 +5555,7 @@
       "head": {
         "label": "a5_blockify_on",
         "ref": "a5_blockify_on",
-        "sha": "ac6dfc0d49ec9e4eeee4fdc9b7916936bcc9c310",
-        "user": {
-          "id": "68db97c7a3c0221fe79362f7",
-          "object_id": "68db97c7a3c0221fe79362f7",
-          "login": "Zackc",
-          "name": "zackc",
-          "state": "active",
-          "email": "Zackc@noreply.gitcode.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/Zackc"
-        },
-        "repo": {
-          "id": 9427792,
-          "full_path": "Zackc/triton-ascend",
-          "full_name": "Zackc/triton-ascend",
-          "human_name": "Zackc / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "68db97c7a3c0221fe79362f7",
-            "object_id": "68db97c7a3c0221fe79362f7",
-            "login": "Zackc",
-            "name": "zackc",
-            "state": "active",
-            "email": "Zackc@noreply.gitcode.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/Zackc"
-          },
-          "assigner": {
-            "id": "68db97c7a3c0221fe79362f7",
-            "object_id": "68db97c7a3c0221fe79362f7",
-            "login": "Zackc",
-            "name": "zackc",
-            "state": "active",
-            "email": "Zackc@noreply.gitcode.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/Zackc"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/Zackc/triton-ascend.git"
-        }
+        "sha": "ac6dfc0d49ec9e4eeee4fdc9b7916936bcc9c310"
       },
       "base": {
         "label": "main",
@@ -5652,13 +5611,24 @@
       "project_id": 7623225,
       "title": "Turn on autoblockify on regbased architectures by default",
       "body": "<!---\nThe core Triton is a small number of people, and we receive many PRs (thank\nyou!).  To help us review your code more quickly, **if you are a new\ncontributor (less than 3 PRs merged) we ask that you complete the following\ntasks and include the filled-out checklist in your PR description.**\n\nComplete the following tasks before sending your PR, and replace `[ ]` with\n`[x]` to indicate you have done them.\n-->\n\n# New contributor declaration\n- [ ] I am not making a trivial change, such as fixing a typo in a comment.\n\n- [ ] I have written a PR description following these\n  [rules](https://cbea.ms/git-commit/#why-not-how).\n\n- [ ] I have run `pre-commit run --from-ref origin/main --to-ref HEAD`.\n\n- Select one of the following.\n  - [ ] I have added tests.\n    - `/test` for `lit` tests\n    - `/unittest` for C++ tests\n    - `/python/test` for end-to-end tests\n  - [ ] This PR does not need a test because `FILL THIS IN`.\n\n- Select one of the following.\n  - [ ] I have not added any `lit` tests.\n  - [ ] The `lit` tests I have added follow these [best practices](https://mlir.llvm.org/getting_started/TestingGuide/#filecheck-best-practices),\n    including the \"tests should be minimal\" section. (Usually running Python code\n    and using the instructions it generates is not minimal.)\n",
-      "state": "open",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-05-13T13:43:55+08:00",
-      "updated_at": "2026-05-18T19:35:03+08:00",
+      "updated_at": "2026-06-23T08:52:53+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 7313478,
+        "name": "Zackc",
+        "username": "Zackc",
+        "iam_id": "b165c31acc8d477e99a55d16507f7e52",
+        "nick_name": "zackc",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/Zackc"
+      },
+      "closed_at": "2026-06-23T08:52:53+08:00",
       "target_branch": "main",
       "source_branch": "a5_blockify_on",
       "source_project_id": 9427792,
@@ -5673,7 +5643,7 @@
         "start_sha": "865691e2e9b656bc58008170207b4108d92e8dd1"
       },
       "notes": 23,
-      "source_git_url": "git@gitcode.com:Zackc/triton-ascend.git",
+      "source_git_url": "git@gitcode.com:Zackc/triton-ascend_9427792_deleted.git",
       "can_merge_check": false,
       "mergeable": true,
       "locked": false,
