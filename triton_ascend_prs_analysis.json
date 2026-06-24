@@ -1,6 +1,6 @@
 {
   "repository": "Ascend/triton-ascend",
-  "total_open_prs": 91,
+  "total_open_prs": 89,
   "recent_submitted_prs": [],
   "recent_merged_prs_analysis": {
     "count": 0,
@@ -46865,48 +46865,7 @@
       "head": {
         "label": "3.5.x",
         "ref": "3.5.x",
-        "sha": "763e6749ba2a02bc25cbb89cb1534eea712316d8",
-        "user": {
-          "id": "682316676a68fa1fec6cf86e",
-          "object_id": "682316676a68fa1fec6cf86e",
-          "login": "rmch",
-          "name": "rmch",
-          "state": "active",
-          "email": "chenruimin2@huawei.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/rmch"
-        },
-        "repo": {
-          "id": 9691117,
-          "full_path": "rmch/triton-ascend",
-          "full_name": "rmch/triton-ascend",
-          "human_name": "rmch / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "682316676a68fa1fec6cf86e",
-            "object_id": "682316676a68fa1fec6cf86e",
-            "login": "rmch",
-            "name": "rmch",
-            "state": "active",
-            "email": "chenruimin2@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/rmch"
-          },
-          "assigner": {
-            "id": "682316676a68fa1fec6cf86e",
-            "object_id": "682316676a68fa1fec6cf86e",
-            "login": "rmch",
-            "name": "rmch",
-            "state": "active",
-            "email": "chenruimin2@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/rmch"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/rmch/triton-ascend.git"
-        }
+        "sha": "763e6749ba2a02bc25cbb89cb1534eea712316d8"
       },
       "base": {
         "label": "release/3.5.x",
@@ -46962,13 +46921,24 @@
       "project_id": 7623225,
       "title": "update: 更新文件 README_zh.md",
       "body": "<!---\nThe core Triton is a small number of people, and we receive many PRs (thank\nyou!).  To help us review your code more quickly, **if you are a new\ncontributor (less than 3 PRs merged) we ask that you complete the following\ntasks and include the filled-out checklist in your PR description.**\n\nComplete the following tasks before sending your PR, and replace `[ ]` with\n`[x]` to indicate you have done them.\n-->\n\n# New contributor declaration\n- [ ] I am not making a trivial change, such as fixing a typo in a comment.\n\n- [ ] I have written a PR description following these\n  [rules](https://cbea.ms/git-commit/#why-not-how).\n\n- [ ] I have run `pre-commit run --from-ref origin/main --to-ref HEAD`.\n\n- Select one of the following.\n  - [ ] I have added tests.\n    - `/test` for `lit` tests\n    - `/unittest` for C++ tests\n    - `/python/test` for end-to-end tests\n  - [ ] This PR does not need a test because `FILL THIS IN`.\n\n- Select one of the following.\n  - [ ] I have not added any `lit` tests.\n  - [ ] The `lit` tests I have added follow these [best practices](https://mlir.llvm.org/getting_started/TestingGuide/#filecheck-best-practices),\n    including the \"tests should be minimal\" section. (Usually running Python code\n    and using the instructions it generates is not minimal.)\n",
-      "state": "open",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-04-16T10:26:10+08:00",
-      "updated_at": "2026-04-16T10:35:20+08:00",
+      "updated_at": "2026-06-23T17:58:07+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 5587799,
+        "name": "rmch",
+        "username": "rmch",
+        "iam_id": "5636d803cea44ef5b955b547f8b5a3b2",
+        "nick_name": "rmch",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/rmch"
+      },
+      "closed_at": "2026-06-23T17:58:07+08:00",
       "target_branch": "release/3.5.x",
       "source_branch": "3.5.x",
       "source_project_id": 9691117,
@@ -46983,7 +46953,7 @@
         "start_sha": "48e48fb3412020f716e86b2a4a616065b6b7e706"
       },
       "notes": 6,
-      "source_git_url": "git@gitcode.com:rmch/triton-ascend.git",
+      "source_git_url": "git@gitcode.com:rmch/triton-ascend_9691117_deleted.git",
       "can_merge_check": false,
       "mergeable": true,
       "locked": false,
@@ -47023,48 +46993,7 @@
       "head": {
         "label": "3.5.x",
         "ref": "3.5.x",
-        "sha": "763e6749ba2a02bc25cbb89cb1534eea712316d8",
-        "user": {
-          "id": "682316676a68fa1fec6cf86e",
-          "object_id": "682316676a68fa1fec6cf86e",
-          "login": "rmch",
-          "name": "rmch",
-          "state": "active",
-          "email": "chenruimin2@huawei.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/rmch"
-        },
-        "repo": {
-          "id": 9691117,
-          "full_path": "rmch/triton-ascend",
-          "full_name": "rmch/triton-ascend",
-          "human_name": "rmch / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "682316676a68fa1fec6cf86e",
-            "object_id": "682316676a68fa1fec6cf86e",
-            "login": "rmch",
-            "name": "rmch",
-            "state": "active",
-            "email": "chenruimin2@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/rmch"
-          },
-          "assigner": {
-            "id": "682316676a68fa1fec6cf86e",
-            "object_id": "682316676a68fa1fec6cf86e",
-            "login": "rmch",
-            "name": "rmch",
-            "state": "active",
-            "email": "chenruimin2@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/rmch"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/rmch/triton-ascend.git"
-        }
+        "sha": "763e6749ba2a02bc25cbb89cb1534eea712316d8"
       },
       "base": {
         "label": "main",
@@ -47152,7 +47081,7 @@
         "start_sha": "4a2526a15466c4f977d74953644182b687686ff7"
       },
       "notes": 1,
-      "source_git_url": "git@gitcode.com:rmch/triton-ascend.git",
+      "source_git_url": "git@gitcode.com:rmch/triton-ascend_9691117_deleted.git",
       "can_merge_check": false,
       "mergeable": false,
       "locked": false,
@@ -47386,48 +47315,7 @@
       "head": {
         "label": "main",
         "ref": "main",
-        "sha": "8cbf3ea2798e7ec640f295479e502d449bfaf988",
-        "user": {
-          "id": "682316676a68fa1fec6cf86e",
-          "object_id": "682316676a68fa1fec6cf86e",
-          "login": "rmch",
-          "name": "rmch",
-          "state": "active",
-          "email": "chenruimin2@huawei.com",
-          "name_cn": "",
-          "html_url": "https://gitcode.com/rmch"
-        },
-        "repo": {
-          "id": 9691117,
-          "full_path": "rmch/triton-ascend",
-          "full_name": "rmch/triton-ascend",
-          "human_name": "rmch / triton-ascend",
-          "name": "triton-ascend",
-          "path": "triton-ascend",
-          "description": "triton-ascend",
-          "owner": {
-            "id": "682316676a68fa1fec6cf86e",
-            "object_id": "682316676a68fa1fec6cf86e",
-            "login": "rmch",
-            "name": "rmch",
-            "state": "active",
-            "email": "chenruimin2@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/rmch"
-          },
-          "assigner": {
-            "id": "682316676a68fa1fec6cf86e",
-            "object_id": "682316676a68fa1fec6cf86e",
-            "login": "rmch",
-            "name": "rmch",
-            "state": "active",
-            "email": "chenruimin2@huawei.com",
-            "name_cn": "",
-            "html_url": "https://gitcode.com/rmch"
-          },
-          "internal": false,
-          "html_url": "https://gitcode.com/rmch/triton-ascend.git"
-        }
+        "sha": "8cbf3ea2798e7ec640f295479e502d449bfaf988"
       },
       "base": {
         "label": "main",
@@ -47483,13 +47371,24 @@
       "project_id": 7623225,
       "title": "update: 更新文件 README_zh.md",
       "body": "<!---\nThe core Triton is a small number of people, and we receive many PRs (thank\nyou!).  To help us review your code more quickly, **if you are a new\ncontributor (less than 3 PRs merged) we ask that you complete the following\ntasks and include the filled-out checklist in your PR description.**\n\nComplete the following tasks before sending your PR, and replace `[ ]` with\n`[x]` to indicate you have done them.\n-->\n\n# New contributor declaration\n- [ ] I am not making a trivial change, such as fixing a typo in a comment.\n\n- [ ] I have written a PR description following these\n  [rules](https://cbea.ms/git-commit/#why-not-how).\n\n- [ ] I have run `pre-commit run --from-ref origin/main --to-ref HEAD`.\n\n- Select one of the following.\n  - [ ] I have added tests.\n    - `/test` for `lit` tests\n    - `/unittest` for C++ tests\n    - `/python/test` for end-to-end tests\n  - [ ] This PR does not need a test because `FILL THIS IN`.\n\n- Select one of the following.\n  - [ ] I have not added any `lit` tests.\n  - [ ] The `lit` tests I have added follow these [best practices](https://mlir.llvm.org/getting_started/TestingGuide/#filecheck-best-practices),\n    including the \"tests should be minimal\" section. (Usually running Python code\n    and using the instructions it generates is not minimal.)\n",
-      "state": "open",
+      "state": "closed",
       "assignees_number": 0,
       "testers_number": 0,
       "created_at": "2026-04-16T10:08:21+08:00",
-      "updated_at": "2026-05-18T19:37:32+08:00",
+      "updated_at": "2026-06-23T17:58:07+08:00",
       "merged_at": "",
-      "closed_at": "",
+      "closed_by": {
+        "id": 5587799,
+        "name": "rmch",
+        "username": "rmch",
+        "iam_id": "5636d803cea44ef5b955b547f8b5a3b2",
+        "nick_name": "rmch",
+        "state": "active",
+        "email": "",
+        "name_cn": "",
+        "web_url": "https://gitcode.com/rmch"
+      },
+      "closed_at": "2026-06-23T17:58:07+08:00",
       "target_branch": "main",
       "source_branch": "main",
       "source_project_id": 9691117,
@@ -47504,7 +47403,7 @@
         "start_sha": "865691e2e9b656bc58008170207b4108d92e8dd1"
       },
       "notes": 8,
-      "source_git_url": "git@gitcode.com:rmch/triton-ascend.git",
+      "source_git_url": "git@gitcode.com:rmch/triton-ascend_9691117_deleted.git",
       "can_merge_check": false,
       "mergeable": false,
       "locked": false,
