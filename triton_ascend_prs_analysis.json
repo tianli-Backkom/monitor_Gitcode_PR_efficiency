@@ -5643,7 +5643,6 @@
         "start_sha": "865691e2e9b656bc58008170207b4108d92e8dd1"
       },
       "notes": 23,
-      "source_git_url": "git@gitcode.com:Zackc/triton-ascend_9427792_deleted.git",
       "can_merge_check": false,
       "mergeable": true,
       "locked": false,
@@ -46953,7 +46952,6 @@
         "start_sha": "48e48fb3412020f716e86b2a4a616065b6b7e706"
       },
       "notes": 6,
-      "source_git_url": "git@gitcode.com:rmch/triton-ascend_9691117_deleted.git",
       "can_merge_check": false,
       "mergeable": true,
       "locked": false,
@@ -47081,7 +47079,6 @@
         "start_sha": "4a2526a15466c4f977d74953644182b687686ff7"
       },
       "notes": 1,
-      "source_git_url": "git@gitcode.com:rmch/triton-ascend_9691117_deleted.git",
       "can_merge_check": false,
       "mergeable": false,
       "locked": false,
@@ -47403,7 +47400,6 @@
         "start_sha": "865691e2e9b656bc58008170207b4108d92e8dd1"
       },
       "notes": 8,
-      "source_git_url": "git@gitcode.com:rmch/triton-ascend_9691117_deleted.git",
       "can_merge_check": false,
       "mergeable": false,
       "locked": false,
